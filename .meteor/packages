@@ -8,3 +8,7 @@ bootstrap-3
 iron-router
 accounts-password
 accounts-ui-bootstrap-3
+autoform
+coffeescript
+simple-schema
+collection2

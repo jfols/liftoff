@@ -13,4 +13,11 @@ Router.map( function () {
     path: 'about'
   });
   
+  this.route('cats', {
+    waitOn: function () { return Meteor.subscribe('cats'); },
+    data: function () { 
+      return { cats: Cats.find() };
+    }
+  });
+  
 });

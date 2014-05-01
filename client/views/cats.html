@@ -1,0 +1,8 @@
+<template name='cats'>
+  {{> quickForm collection='Cats' type='insert'}}
+  <p>{{stuff}}</p>
+  <h1>All the cats</h1>
+  {{#each cats}}
+    {{name}} - {{color}}
+  {{/each}}
+</template>
