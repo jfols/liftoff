@@ -46,6 +46,15 @@ Fire up the engines
 meteor
 ```
 
+Debug tests
+```sh
+JASMINE_BROWSER=PhantomJS DEBUG=1 MOCHA_DEBUG=1 JASMINE_DEBUG=1 VELOCITY_DEBUG=1 VELOCITY_DEBUG_MIRROR=1 meteor
+```
+
+## Test logs
+
+Logs are located in `.meteor/local/log/`
+
 # Included Packages
 
 - [iron:router](https://atmospherejs.com/iron/router) - The de facto standard routing package for Meteor
@@ -84,7 +93,8 @@ meteor
 │       ├── layout
 │       │   ├── header.html
 │       │   ├── header.litcoffee
-│       │   └── layout.html
+│       │   ├── layout.html
+│       │   └── loading.html
 │       ├── main.html
 │       └── pages
 │           ├── about.html
@@ -92,16 +102,52 @@ meteor
 ├── lib
 │   └── config
 │       └── accountsTemplates.litcoffee
+├── packages
+│   └── tests-proxy
+│       ├── package.js
+│       └── tests -> ../../tests
 ├── public
-└── server
-    └── publications.litcoffee
+├── server
+│   ├── fixtures.litcoffee
+│   └── publications.litcoffee
+└── tests
+    └── jasmine
+        ├── client
+        │   └── integration
+        │       ├── _globalTestHelpers.litcoffee
+        │       └── sample
+        │           ├── spec
+        │           │   ├── PlayerSpec.js
+        │           │   └── SpecMatchers.js
+        │           └── src
+        │               ├── Player.js
+        │               └── Song.js
+        └── server
+            ├── integration
+            │   └── sample
+            │       ├── spec
+            │       │   ├── PlayerSpec.js
+            │       │   └── SpecMatchers.js
+            │       └── src
+            │           ├── Player.js
+            │           └── Song.js
+            └── unit
+                ├── package-stubs.js
+                ├── packageMocksSpec.js
+                └── sample
+                    ├── spec
+                    │   ├── PlayerSpec.js
+                    │   └── SpecMatchers.js
+                    └── src
+                        ├── Player.js
+                        └── Song.js
 ```
 
 # Deploy your app
 
 There are several options to deploy your app.
 
-## Meteor Deploy
+## Meteor Deploy (easy)
 
 You can use the free `meteor deploy` service (hosted by Meteor) or your can deploy to your own server.
 
@@ -111,7 +157,7 @@ meteor deploy yourapp.meteor.com
 
 Or to your own domain using Meteor deploy by setting the `CNAME` of your domain to `origin.meteor.com`.
 
-## Manual Deploy
+## Manual Deploy (recommended)
 
 We find the use of [Digital Ocean](https://www.digitalocean.com/?refcode=c7c4c94c1222) with [Meteor Up](https://github.com/arunoda/meteor-up/) to be the simplest and most cost effective hosting solution.
 For a more robust database experience give [Compose](https://www.compose.io/mongodb/) a try.
