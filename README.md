@@ -1,6 +1,6 @@
-#Liftoff [![Hack jfols/liftoff on Nitrous.IO](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png)](https://www.nitrous.io/hack_button?source=embed&runtime=nodejs&repo=jfols%2Fliftoff&file_to_open=README.md)
+#Liftoff
 
-Opinionated boilerplate to get your [Meteor](https://meteor.com) project off the ground written in literal coffeescript. Meteor v1.0.3.2.
+Opinionated boilerplate to get your [Meteor](https://meteor.com) project off the ground written in literal coffeescript using Meteor v1.0.5.
 
 Liftoff is designed to be a basic starting point for any Meteor project.
 
@@ -56,6 +56,9 @@ meteor
 - [natestrauser:connection-banner](https://atmospherejs.com/natestrauser/connection-banner) - Automagically connection status banner
 - [fezvrasta:bootstrap-material-design](https://atmospherejs.com/fezvrasta/bootstrap-material-design) - Beautification
 - [fortawesome:fontawesome](https://atmospherejs.com/fortawesome/fontawesome) - Beautiful icons
+- [sanjo:jasmine](https://atmospherejs.com/sanjo/jasmine) - Jasmine 2.1 tests
+- [velocity:html-reporter](https://atmospherejs.com/velocity/html-reporter) - Velocity HTML test reporter
+- [velocity:console-reporter](https://atmospherejs.com/velocity/console-reporter) - Velocity console test reporter
 
 # Recommended Packages
 
