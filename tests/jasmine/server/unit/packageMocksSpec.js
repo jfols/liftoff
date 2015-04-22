@@ -7086,7 +7086,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "2716ce3d08d50c38a7f64cfad44a9dfc731793a3"
+                  "value": "01b914fe6e32077223cac4de1ee3e8217dc9b1a2"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7210,7 +7210,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 2
+              "value": 0
             },
             "timeout": {
               "type": "constant",
@@ -9514,6 +9514,281 @@ var packageMetadata = {
             }
           }
         },
+        "texts": {
+          "type": "object",
+          "members": {
+            "navSignIn": {
+              "type": "constant",
+              "value": "Sign In"
+            },
+            "navSignOut": {
+              "type": "constant",
+              "value": "Logout"
+            },
+            "button": {
+              "type": "object",
+              "members": {
+                "signUp": {
+                  "type": "constant",
+                  "value": "Register"
+                },
+                "changePwd": {
+                  "type": "constant",
+                  "value": "updateYourPassword"
+                },
+                "enrollAccount": {
+                  "type": "constant",
+                  "value": "signUp"
+                },
+                "forgotPwd": {
+                  "type": "constant",
+                  "value": "emailResetLink"
+                },
+                "resetPwd": {
+                  "type": "constant",
+                  "value": "setPassword"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "signIn"
+                },
+                "resendVerificationEmail": {
+                  "type": "constant",
+                  "value": "Send email again"
+                }
+              }
+            },
+            "errors": {
+              "type": "object",
+              "members": {
+                "accountsCreationDisabled": {
+                  "type": "constant",
+                  "value": "Client side accounts creation is disabled!!!"
+                },
+                "cannotRemoveService": {
+                  "type": "constant",
+                  "value": "Cannot remove the only active service!"
+                },
+                "captchaVerification": {
+                  "type": "constant",
+                  "value": "Captcha verification failed!"
+                },
+                "loginForbidden": {
+                  "type": "constant",
+                  "value": "error.accounts.Login forbidden"
+                },
+                "mustBeLoggedIn": {
+                  "type": "constant",
+                  "value": "error.accounts.Must be logged in"
+                },
+                "pwdMismatch": {
+                  "type": "constant",
+                  "value": "error.pwdsDontMatch"
+                },
+                "validationErrors": {
+                  "type": "constant",
+                  "value": "Validation Errors"
+                },
+                "verifyEmailFirst": {
+                  "type": "constant",
+                  "value": "Please verify your email first. Check the email and follow the link!"
+                }
+              }
+            },
+            "info": {
+              "type": "object",
+              "members": {
+                "emailSent": {
+                  "type": "constant",
+                  "value": "info.emailSent"
+                },
+                "emailVerified": {
+                  "type": "constant",
+                  "value": "info.emailVerified"
+                },
+                "pwdChanged": {
+                  "type": "constant",
+                  "value": "info.passwordChanged"
+                },
+                "pwdReset": {
+                  "type": "constant",
+                  "value": "info.passwordReset"
+                },
+                "pwdSet": {
+                  "type": "constant",
+                  "value": "Password Set"
+                },
+                "signUpVerifyEmail": {
+                  "type": "constant",
+                  "value": "Successful Registration! Please check your email and follow the instructions."
+                },
+                "verificationEmailSent": {
+                  "type": "constant",
+                  "value": "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder."
+                }
+              }
+            },
+            "inputIcons": {
+              "type": "object",
+              "members": {
+                "isValidating": {
+                  "type": "constant",
+                  "value": "fa fa-spinner fa-spin"
+                },
+                "hasSuccess": {
+                  "type": "constant",
+                  "value": "fa fa-check"
+                },
+                "hasError": {
+                  "type": "constant",
+                  "value": "fa fa-times"
+                }
+              }
+            },
+            "optionalField": {
+              "type": "constant",
+              "value": "optional"
+            },
+            "pwdLink_pre": {
+              "type": "constant",
+              "value": ""
+            },
+            "pwdLink_link": {
+              "type": "constant",
+              "value": "forgotPassword"
+            },
+            "pwdLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "resendVerificationEmailLink_pre": {
+              "type": "constant",
+              "value": "Verification email lost?"
+            },
+            "resendVerificationEmailLink_link": {
+              "type": "constant",
+              "value": "Send again"
+            },
+            "resendVerificationEmailLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "sep": {
+              "type": "constant",
+              "value": "OR"
+            },
+            "signInLink_pre": {
+              "type": "constant",
+              "value": "ifYouAlreadyHaveAnAccount"
+            },
+            "signInLink_link": {
+              "type": "constant",
+              "value": "signin"
+            },
+            "signInLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "signUpLink_pre": {
+              "type": "constant",
+              "value": "dontHaveAnAccount"
+            },
+            "signUpLink_link": {
+              "type": "constant",
+              "value": "signUp"
+            },
+            "signUpLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "socialAdd": {
+              "type": "constant",
+              "value": "add"
+            },
+            "socialConfigure": {
+              "type": "constant",
+              "value": "configure"
+            },
+            "socialIcons": {
+              "type": "object",
+              "members": {
+                "meteor-developer": {
+                  "type": "constant",
+                  "value": "fa fa-rocket"
+                }
+              }
+            },
+            "socialRemove": {
+              "type": "constant",
+              "value": "remove"
+            },
+            "socialSignIn": {
+              "type": "constant",
+              "value": "signIn"
+            },
+            "socialSignUp": {
+              "type": "constant",
+              "value": "signUp"
+            },
+            "socialWith": {
+              "type": "constant",
+              "value": "with"
+            },
+            "termsPreamble": {
+              "type": "constant",
+              "value": "clickAgree"
+            },
+            "termsPrivacy": {
+              "type": "constant",
+              "value": "privacyPolicy"
+            },
+            "termsAnd": {
+              "type": "constant",
+              "value": "and"
+            },
+            "termsTerms": {
+              "type": "constant",
+              "value": "terms"
+            },
+            "title": {
+              "type": "object",
+              "members": {
+                "forgotPwd": {
+                  "type": "constant",
+                  "value": "Recover Your Password"
+                },
+                "changePwd": {
+                  "type": "constant",
+                  "value": "changePassword"
+                },
+                "enrollAccount": {
+                  "type": "constant",
+                  "value": "createAccount"
+                },
+                "resetPwd": {
+                  "type": "constant",
+                  "value": "resetYourPassword"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "signIn"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "createAccount"
+                },
+                "verifyEmail": {
+                  "type": "constant",
+                  "value": ""
+                },
+                "resendVerificationEmail": {
+                  "type": "constant",
+                  "value": "Send the verification email again"
+                }
+              }
+            }
+          }
+        },
         "ROUTE_DEFAULT": {
           "type": "object",
           "members": {
@@ -9618,6 +9893,19 @@ var packageMetadata = {
                 "path": {
                   "type": "constant",
                   "value": "/verify-email"
+                }
+              }
+            },
+            "resendVerificationEmail": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "atResendVerificationEmail"
+                },
+                "path": {
+                  "type": "constant",
+                  "value": "/send-again"
                 }
               }
             }
@@ -10220,11 +10508,11 @@ var packageMetadata = {
                 },
                 "signIn": {
                   "type": "constant",
-                  "value": "登陆"
+                  "value": "登录"
                 },
                 "signin": {
                   "type": "constant",
-                  "value": "登陆"
+                  "value": "登录"
                 },
                 "signOut": {
                   "type": "constant",
@@ -10300,7 +10588,7 @@ var packageMetadata = {
                 },
                 "error.signInRequired": {
                   "type": "constant",
-                  "value": "您必须登陆后才能查看"
+                  "value": "您必须登录后才能查看"
                 },
                 "error.signupCodeIncorrect": {
                   "type": "constant",
@@ -10328,11 +10616,11 @@ var packageMetadata = {
                 },
                 "error.accounts.Invalid login token": {
                   "type": "constant",
-                  "value": "登陆密匙错误"
+                  "value": "登录密匙错误"
                 },
                 "error.accounts.Login forbidden": {
                   "type": "constant",
-                  "value": "登陆被阻止"
+                  "value": "登录被阻止"
                 },
                 "error.accounts.Service unknown": {
                   "type": "constant",
@@ -10340,7 +10628,7 @@ var packageMetadata = {
                 },
                 "error.accounts.Unrecognized options for login request": {
                   "type": "constant",
-                  "value": "登陆请求存在无法识别的选项"
+                  "value": "登录请求存在无法识别的选项"
                 },
                 "error.accounts.User validation failed": {
                   "type": "constant",
@@ -10352,19 +10640,19 @@ var packageMetadata = {
                 },
                 "error.accounts.You are not logged in.": {
                   "type": "constant",
-                  "value": "您还没有登陆。"
+                  "value": "您还没有登录。"
                 },
                 "error.accounts.You've been logged out by the server. Please log in again.": {
                   "type": "constant",
-                  "value": "您被服务器登出了。请重新登陆。"
+                  "value": "您被服务器登出了。请重新登录。"
                 },
                 "error.accounts.Your session has expired. Please log in again.": {
                   "type": "constant",
-                  "value": "会话过期，请重新登陆。"
+                  "value": "会话过期，请重新登录。"
                 },
                 "error.accounts.No matching login attempt found": {
                   "type": "constant",
-                  "value": "未发现对应登陆请求"
+                  "value": "未发现对应登录请求"
                 },
                 "error.accounts.Password is old. Please reset your password.": {
                   "type": "constant",
@@ -10380,7 +10668,7 @@ var packageMetadata = {
                 },
                 "error.accounts.Must be logged in": {
                   "type": "constant",
-                  "value": "必须先登陆"
+                  "value": "必须先登录"
                 },
                 "error.accounts.Need to set a username or email": {
                   "type": "constant",
@@ -10449,11 +10737,11 @@ var packageMetadata = {
                 },
                 "changePassword": {
                   "type": "constant",
-                  "value": "Canviar contrassenya"
+                  "value": "Canviar contrasenya"
                 },
                 "choosePassword": {
                   "type": "constant",
-                  "value": "Escollir contrassenya"
+                  "value": "Escollir contrasenya"
                 },
                 "clickAgree": {
                   "type": "constant",
@@ -10469,7 +10757,7 @@ var packageMetadata = {
                 },
                 "currentPassword": {
                   "type": "constant",
-                  "value": "Contrassenya actual"
+                  "value": "Contrasenya actual"
                 },
                 "dontHaveAnAccount": {
                   "type": "constant",
@@ -10489,7 +10777,7 @@ var packageMetadata = {
                 },
                 "forgotPassword": {
                   "type": "constant",
-                  "value": "Has oblidat la contrassenya?"
+                  "value": "Has oblidat la contrasenya?"
                 },
                 "ifYouAlreadyHaveAnAccount": {
                   "type": "constant",
@@ -10497,11 +10785,11 @@ var packageMetadata = {
                 },
                 "newPassword": {
                   "type": "constant",
-                  "value": "Nova contrassenya"
+                  "value": "Nova contrasenya"
                 },
                 "newPasswordAgain": {
                   "type": "constant",
-                  "value": "Nova contrassenya (repetir)"
+                  "value": "Nova contrasenya (repetir)"
                 },
                 "optional": {
                   "type": "constant",
@@ -10513,15 +10801,15 @@ var packageMetadata = {
                 },
                 "password": {
                   "type": "constant",
-                  "value": "Contrassenya"
+                  "value": "Contrasenya"
                 },
                 "passwordAgain": {
                   "type": "constant",
-                  "value": "Contrassenya (repetir)"
+                  "value": "Contrasenya (repetir)"
                 },
                 "privacyPolicy": {
                   "type": "constant",
-                  "value": "Pòlissa de Privacitat"
+                  "value": "Política de Privacitat"
                 },
                 "remove": {
                   "type": "constant",
@@ -10529,11 +10817,11 @@ var packageMetadata = {
                 },
                 "resetYourPassword": {
                   "type": "constant",
-                  "value": "Resetejar la teva contrassenya"
+                  "value": "Resetejar la teva contrasenya"
                 },
                 "setPassword": {
                   "type": "constant",
-                  "value": "Definir contrassenya"
+                  "value": "Definir contrasenya"
                 },
                 "sign": {
                   "type": "constant",
@@ -10565,11 +10853,11 @@ var packageMetadata = {
                 },
                 "terms": {
                   "type": "constant",
-                  "value": "Térmes d'ús"
+                  "value": "Termes d'ús"
                 },
                 "updateYourPassword": {
                   "type": "constant",
-                  "value": "Actualitzar la teva contrassenya"
+                  "value": "Actualitzar la teva contrasenya"
                 },
                 "username": {
                   "type": "constant",
@@ -10593,11 +10881,11 @@ var packageMetadata = {
                 },
                 "info.passwordChanged": {
                   "type": "constant",
-                  "value": "Contrassenya canviada"
+                  "value": "Contrasenya canviada"
                 },
                 "info.passwordReset": {
                   "type": "constant",
-                  "value": "Reiniciar contrassenya"
+                  "value": "Reiniciar contrasenya"
                 },
                 "error.emailRequired": {
                   "type": "constant",
@@ -10609,7 +10897,7 @@ var packageMetadata = {
                 },
                 "error.pwdsDontMatch": {
                   "type": "constant",
-                  "value": "Les contrassenyes no coincideixen"
+                  "value": "Les contrasenyes no coincideixen"
                 },
                 "error.pwOneDigit": {
                   "type": "constant",
@@ -10665,7 +10953,7 @@ var packageMetadata = {
                 },
                 "error.accounts.Incorrect password": {
                   "type": "constant",
-                  "value": "Contrassenya invàlida"
+                  "value": "Contrasenya invàlida"
                 },
                 "error.accounts.Must be logged in": {
                   "type": "constant",
@@ -10689,7 +10977,7 @@ var packageMetadata = {
                 },
                 "error.accounts.User has no password set": {
                   "type": "constant",
-                  "value": "Usuario no té contrassenya"
+                  "value": "Usuari no té contrasenya"
                 },
                 "error.accounts.User not found": {
                   "type": "constant",
@@ -10697,11 +10985,11 @@ var packageMetadata = {
                 },
                 "error.accounts.Verify email link expired": {
                   "type": "constant",
-                  "value": "L'enllaç per verificar el correu ha expirat"
+                  "value": "L'enllaç per a verificar el correu ha expirat"
                 },
                 "error.accounts.Verify email link is for unknown address": {
                   "type": "constant",
-                  "value": "L'enllaç per verificar el correu conté una adreça desconeguda"
+                  "value": "L'enllaç per a verificar el correu conté una adreça desconeguda"
                 }
               }
             },
@@ -11384,7 +11672,7 @@ var packageMetadata = {
                 },
                 "createAccount": {
                   "type": "constant",
-                  "value": "Konto erzeugen"
+                  "value": "Konto erstellen"
                 },
                 "currentPassword": {
                   "type": "constant",
@@ -11418,7 +11706,7 @@ var packageMetadata = {
                   "type": "constant",
                   "value": "Neues Passwort"
                 },
-                "newPasswortAgain": {
+                "newPasswordAgain": {
                   "type": "constant",
                   "value": "Neues Passwort (wiederholen)"
                 },
@@ -11452,7 +11740,7 @@ var packageMetadata = {
                 },
                 "setPassword": {
                   "type": "constant",
-                  "value": "Passwort bestimmen"
+                  "value": "Passwort festlegen"
                 },
                 "sign": {
                   "type": "constant",
@@ -11510,11 +11798,11 @@ var packageMetadata = {
                   "type": "constant",
                   "value": "E-Mail verifiziert"
                 },
-                "info.PasswortChanged": {
+                "info.PasswordChanged": {
                   "type": "constant",
                   "value": "Passwort geändert"
                 },
-                "info.PasswortReset": {
+                "info.PasswordReset": {
                   "type": "constant",
                   "value": "Passwort zurückgesetzt"
                 },
@@ -11524,7 +11812,7 @@ var packageMetadata = {
                 },
                 "error.minChar": {
                   "type": "constant",
-                  "value": "Passwort muss mindesten 7 Zeichen lang sein."
+                  "value": "Passwort muss mindestens 7 Zeichen lang sein."
                 },
                 "error.pwdsDontMatch": {
                   "type": "constant",
@@ -11552,7 +11840,7 @@ var packageMetadata = {
                 },
                 "error.usernameIsEmail": {
                   "type": "constant",
-                  "value": "Benutzername kann nicht eine E-Mail."
+                  "value": "Benutzername darf keine E-Mail Adresse sein."
                 },
                 "error.usernameRequired": {
                   "type": "constant",
@@ -11560,19 +11848,19 @@ var packageMetadata = {
                 },
                 "error.accounts.Email already exists.": {
                   "type": "constant",
-                  "value": "Die E-Mail Adresse ist bereits vergeben."
+                  "value": "Die E-Mail Adresse wird bereits verwendet."
                 },
                 "error.accounts.Email doesn't match the criteria.": {
                   "type": "constant",
-                  "value": "E-Mail Adresse erfüllt nicht die Anforderungen."
+                  "value": "E-Mail Adresse erfüllt die Anforderungen nicht."
                 },
                 "error.accounts.Invalid login token": {
                   "type": "constant",
-                  "value": "Ungültiger Login Token"
+                  "value": "Ungültiger Login-Token"
                 },
                 "error.accounts.Login forbidden": {
                   "type": "constant",
-                  "value": "Anmeldung verboten"
+                  "value": "Anmeldedaten ungültig"
                 },
                 "error.accounts.Service unknown": {
                   "type": "constant",
@@ -11584,11 +11872,11 @@ var packageMetadata = {
                 },
                 "error.accounts.User validation failed": {
                   "type": "constant",
-                  "value": "Die Benutzerdaten scheinen nicht korrekt"
+                  "value": "Die Benutzerdaten sind nicht korrekt"
                 },
                 "error.accounts.Username already exists.": {
                   "type": "constant",
-                  "value": "Den Benutzer gibt es schon."
+                  "value": "Der Benutzer existiert bereits."
                 },
                 "error.accounts.You are not logged in.": {
                   "type": "constant",
@@ -11606,13 +11894,13 @@ var packageMetadata = {
                   "type": "constant",
                   "value": "Kein passender Loginversuch gefunden."
                 },
-                "error.accounts.Passwort is old. Please reset your Passwort.": {
+                "error.accounts.Password is old. Please reset your password.": {
                   "type": "constant",
                   "value": "Passwort ist abgelaufen. Bitte setzen Sie es zurück."
                 },
-                "error.accounts.Incorrect Passwort": {
+                "error.accounts.Incorrect password": {
                   "type": "constant",
-                  "value": "Falschen Passwort"
+                  "value": "Falsches Passwort"
                 },
                 "error.accounts.Invalid email": {
                   "type": "constant",
@@ -11626,13 +11914,13 @@ var packageMetadata = {
                   "type": "constant",
                   "value": "Benutzername oder E-Mail Adresse müssen angegeben werden"
                 },
-                "error.accounts.Passwort may not be empty": {
+                "error.accounts.Password may not be empty": {
                   "type": "constant",
                   "value": "Das Passwort darf nicht leer sein"
                 },
                 "error.accounts.Signups forbidden": {
                   "type": "constant",
-                  "value": "Anmeldungen sind verboten"
+                  "value": "Anmeldungen sind nicht erlaubt"
                 },
                 "error.accounts.Token expired": {
                   "type": "constant",
@@ -11642,7 +11930,7 @@ var packageMetadata = {
                   "type": "constant",
                   "value": "E-Mail Adresse passt nicht zum Token"
                 },
-                "error.accounts.User has no Passwort set": {
+                "error.accounts.User has no password set": {
                   "type": "constant",
                   "value": "Kein Passwort für den Benutzer angegeben"
                 },
@@ -13815,6 +14103,327 @@ var packageMetadata = {
                 }
               }
             },
+            "hr": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "constant",
+                  "value": "dodaj"
+                },
+                "and": {
+                  "type": "constant",
+                  "value": "i"
+                },
+                "back": {
+                  "type": "constant",
+                  "value": "nazad"
+                },
+                "changePassword": {
+                  "type": "constant",
+                  "value": "Promjeni zaporku"
+                },
+                "choosePassword": {
+                  "type": "constant",
+                  "value": "Izaberi zaporku"
+                },
+                "clickAgree": {
+                  "type": "constant",
+                  "value": "Klikom na Registracija, prihvatate naše"
+                },
+                "configure": {
+                  "type": "constant",
+                  "value": "Podesi"
+                },
+                "createAccount": {
+                  "type": "constant",
+                  "value": "Napravite račun"
+                },
+                "currentPassword": {
+                  "type": "constant",
+                  "value": "Trenutna zaporka"
+                },
+                "dontHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Vi nemate račun?"
+                },
+                "email": {
+                  "type": "constant",
+                  "value": "Email"
+                },
+                "emailAddress": {
+                  "type": "constant",
+                  "value": "Email adresa"
+                },
+                "emailResetLink": {
+                  "type": "constant",
+                  "value": "Email reset link"
+                },
+                "forgotPassword": {
+                  "type": "constant",
+                  "value": "Zaboravili ste zaporku?"
+                },
+                "ifYouAlreadyHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Ako već imate račun"
+                },
+                "newPassword": {
+                  "type": "constant",
+                  "value": "Nova zaporka"
+                },
+                "newPasswordAgain": {
+                  "type": "constant",
+                  "value": "Nova zaporka (ponovno)"
+                },
+                "optional": {
+                  "type": "constant",
+                  "value": "neobavezno"
+                },
+                "OR": {
+                  "type": "constant",
+                  "value": "ili"
+                },
+                "password": {
+                  "type": "constant",
+                  "value": "Zaporka"
+                },
+                "passwordAgain": {
+                  "type": "constant",
+                  "value": "Zaporka (ponovno)"
+                },
+                "privacyPolicy": {
+                  "type": "constant",
+                  "value": "Izjava o privatnosti"
+                },
+                "remove": {
+                  "type": "constant",
+                  "value": "ukloni"
+                },
+                "resetYourPassword": {
+                  "type": "constant",
+                  "value": "Resetirajte"
+                },
+                "setPassword": {
+                  "type": "constant",
+                  "value": "Postavite zaporku"
+                },
+                "sign": {
+                  "type": "constant",
+                  "value": "Prijava"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "Prijavi se"
+                },
+                "signin": {
+                  "type": "constant",
+                  "value": "prijavi se"
+                },
+                "signOut": {
+                  "type": "constant",
+                  "value": "Odjavi se"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "Registracija"
+                },
+                "signupCode": {
+                  "type": "constant",
+                  "value": "Registracijski kod"
+                },
+                "signUpWithYourEmailAddress": {
+                  "type": "constant",
+                  "value": "Registrirajte se sa vašom email adresom"
+                },
+                "terms": {
+                  "type": "constant",
+                  "value": "Uslovi korištenja"
+                },
+                "updateYourPassword": {
+                  "type": "constant",
+                  "value": "Ažurirajte lozinku"
+                },
+                "username": {
+                  "type": "constant",
+                  "value": "Korisničko ime"
+                },
+                "usernameOrEmail": {
+                  "type": "constant",
+                  "value": "Korisničko ime ili lozinka"
+                },
+                "with": {
+                  "type": "constant",
+                  "value": "sa"
+                },
+                "info.emailSent": {
+                  "type": "constant",
+                  "value": "Email je poslan"
+                },
+                "info.emailVerified": {
+                  "type": "constant",
+                  "value": "Email je verificiran"
+                },
+                "info.passwordChanged": {
+                  "type": "constant",
+                  "value": "Zaproka promjenjena"
+                },
+                "info.passwordReset": {
+                  "type": "constant",
+                  "value": "Zaporka resetirana"
+                },
+                "error.emailRequired": {
+                  "type": "constant",
+                  "value": "Email je potreban."
+                },
+                "error.minChar": {
+                  "type": "constant",
+                  "value": "Zaporka mora sadržavati više od 7 znakova."
+                },
+                "error.pwdsDontMatch": {
+                  "type": "constant",
+                  "value": "Zaporke se ne poklapaju."
+                },
+                "error.pwOneDigit": {
+                  "type": "constant",
+                  "value": "Zaporka mora sadržavati barem jednu brojku."
+                },
+                "error.pwOneLetter": {
+                  "type": "constant",
+                  "value": "Zaporka mora sadržavati barem jedno slovo."
+                },
+                "error.signInRequired": {
+                  "type": "constant",
+                  "value": "Morate biti prijavljeni za to."
+                },
+                "error.signupCodeIncorrect": {
+                  "type": "constant",
+                  "value": "Registracijski kod je netočan."
+                },
+                "error.signupCodeRequired": {
+                  "type": "constant",
+                  "value": "Registracijski kod je potreban."
+                },
+                "error.usernameIsEmail": {
+                  "type": "constant",
+                  "value": "Korisničko ime ne može biti email."
+                },
+                "error.usernameRequired": {
+                  "type": "constant",
+                  "value": "Korisničko ime je potrebno."
+                },
+                "error.accounts.Email already exists.": {
+                  "type": "constant",
+                  "value": "Email već postoji."
+                },
+                "error.accounts.Email doesn't match the criteria.": {
+                  "type": "constant",
+                  "value": "Email ne zadovoljava kriterij."
+                },
+                "error.accounts.Invalid login token": {
+                  "type": "constant",
+                  "value": "Nevažeći  token za prijavu"
+                },
+                "error.accounts.Login forbidden": {
+                  "type": "constant",
+                  "value": "Prijava zabranjena"
+                },
+                "error.accounts.Service unknown": {
+                  "type": "constant",
+                  "value": "Servis nepoznat"
+                },
+                "error.accounts.Unrecognized options for login request": {
+                  "type": "constant",
+                  "value": "Neprepoznate opcije zahtjeva za prijavu"
+                },
+                "error.accounts.User validation failed": {
+                  "type": "constant",
+                  "value": "Provjera valjanosti za korisnika neuspješna."
+                },
+                "error.accounts.Username already exists.": {
+                  "type": "constant",
+                  "value": "Korisnik već postoji."
+                },
+                "error.accounts.You are not logged in.": {
+                  "type": "constant",
+                  "value": "Niste prijavljeni."
+                },
+                "error.accounts.You've been logged out by the server. Please log in again.": {
+                  "type": "constant",
+                  "value": "Odjavljeni ste sa servera. Molimo Vas ponovno se prijavite."
+                },
+                "error.accounts.Your session has expired. Please log in again.": {
+                  "type": "constant",
+                  "value": "Vaša sesija je istekla. Molimo prijavite se ponovno."
+                },
+                "error.accounts.No matching login attempt found": {
+                  "type": "constant",
+                  "value": "Pokušaj prijave se ne podudara sa podatcima u bazi."
+                },
+                "error.accounts.Password is old. Please reset your password.": {
+                  "type": "constant",
+                  "value": "Zaporka je stara. Molimo resetujte zaporku."
+                },
+                "error.accounts.Incorrect password": {
+                  "type": "constant",
+                  "value": "Netočna zaporka"
+                },
+                "error.accounts.Invalid email": {
+                  "type": "constant",
+                  "value": "Nevažeći email"
+                },
+                "error.accounts.Must be logged in": {
+                  "type": "constant",
+                  "value": "Morate biti prijavljeni"
+                },
+                "error.accounts.Need to set a username or email": {
+                  "type": "constant",
+                  "value": "Morate postaviti korisničko ime ili email"
+                },
+                "error.accounts.old password format": {
+                  "type": "constant",
+                  "value": "stari format zaporke"
+                },
+                "error.accounts.Password may not be empty": {
+                  "type": "constant",
+                  "value": "Zaporka ne može biti prazna"
+                },
+                "error.accounts.Signups forbidden": {
+                  "type": "constant",
+                  "value": "Prijave zabranjenje"
+                },
+                "error.accounts.Token expired": {
+                  "type": "constant",
+                  "value": "Token je istekao"
+                },
+                "error.accounts.Token has invalid email address": {
+                  "type": "constant",
+                  "value": "Token ima nevažeću email adresu"
+                },
+                "error.accounts.User has no password set": {
+                  "type": "constant",
+                  "value": "Korisnik nema postavljenu zaporku"
+                },
+                "error.accounts.User not found": {
+                  "type": "constant",
+                  "value": "Korisnik nije pronađen"
+                },
+                "error.accounts.Verify email link expired": {
+                  "type": "constant",
+                  "value": "Link za verifikaciju emaila je istekao"
+                },
+                "error.accounts.Verify email link is for unknown address": {
+                  "type": "constant",
+                  "value": "Link za verifikaciju emaila je za nepoznatu adresu"
+                },
+                "error.accounts.Match failed": {
+                  "type": "constant",
+                  "value": "Usporedba neuspjela"
+                },
+                "error.accounts.Unknown error": {
+                  "type": "constant",
+                  "value": "Nepoznata pogreška"
+                }
+              }
+            },
             "it": {
               "type": "object",
               "members": {
@@ -14133,6 +14742,327 @@ var packageMetadata = {
                 "error.accounts.Unknown error": {
                   "type": "constant",
                   "value": "Errore Sconosciuto"
+                }
+              }
+            },
+            "ja": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "constant",
+                  "value": "足す"
+                },
+                "and": {
+                  "type": "constant",
+                  "value": "と"
+                },
+                "back": {
+                  "type": "constant",
+                  "value": "戻る"
+                },
+                "changePassword": {
+                  "type": "constant",
+                  "value": "パスワードを変更する"
+                },
+                "choosePassword": {
+                  "type": "constant",
+                  "value": "パスワードを選ぶ"
+                },
+                "clickAgree": {
+                  "type": "constant",
+                  "value": "「登録」をクリックすると同意したことになります"
+                },
+                "configure": {
+                  "type": "constant",
+                  "value": "設定する"
+                },
+                "createAccount": {
+                  "type": "constant",
+                  "value": "アカウントを作る"
+                },
+                "currentPassword": {
+                  "type": "constant",
+                  "value": "現在のパスワード"
+                },
+                "dontHaveAnAccount": {
+                  "type": "constant",
+                  "value": "アカウントをお持ちでは無いですか？"
+                },
+                "email": {
+                  "type": "constant",
+                  "value": "Eメール"
+                },
+                "emailAddress": {
+                  "type": "constant",
+                  "value": "Eメールアドレス"
+                },
+                "emailResetLink": {
+                  "type": "constant",
+                  "value": "Eメールリセットリンク"
+                },
+                "forgotPassword": {
+                  "type": "constant",
+                  "value": "パスワードをお忘れですか？"
+                },
+                "ifYouAlreadyHaveAnAccount": {
+                  "type": "constant",
+                  "value": "もしも既にアカウントをお持ちなら"
+                },
+                "newPassword": {
+                  "type": "constant",
+                  "value": "新パスワード"
+                },
+                "newPasswordAgain": {
+                  "type": "constant",
+                  "value": "新パスワード(確認)"
+                },
+                "optional": {
+                  "type": "constant",
+                  "value": "オプション"
+                },
+                "OR": {
+                  "type": "constant",
+                  "value": "または"
+                },
+                "password": {
+                  "type": "constant",
+                  "value": "パスワード"
+                },
+                "passwordAgain": {
+                  "type": "constant",
+                  "value": "パスワード(確認)"
+                },
+                "privacyPolicy": {
+                  "type": "constant",
+                  "value": "プライバシーポリシー"
+                },
+                "remove": {
+                  "type": "constant",
+                  "value": "削除する"
+                },
+                "resetYourPassword": {
+                  "type": "constant",
+                  "value": "パスワードをリセットする"
+                },
+                "setPassword": {
+                  "type": "constant",
+                  "value": "パスワードを設定する"
+                },
+                "sign": {
+                  "type": "constant",
+                  "value": "サイン"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "サインインする"
+                },
+                "signin": {
+                  "type": "constant",
+                  "value": "サインイン"
+                },
+                "signOut": {
+                  "type": "constant",
+                  "value": "サインアウトする"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "登録する"
+                },
+                "signupCode": {
+                  "type": "constant",
+                  "value": "レジストレーションコード"
+                },
+                "signUpWithYourEmailAddress": {
+                  "type": "constant",
+                  "value": "Eメールアドレスで登録する"
+                },
+                "terms": {
+                  "type": "constant",
+                  "value": "利用条件"
+                },
+                "updateYourPassword": {
+                  "type": "constant",
+                  "value": "パスワードを更新する"
+                },
+                "username": {
+                  "type": "constant",
+                  "value": "ユーザー名"
+                },
+                "usernameOrEmail": {
+                  "type": "constant",
+                  "value": "ユーザー名またはEメール"
+                },
+                "with": {
+                  "type": "constant",
+                  "value": "with"
+                },
+                "info.emailSent": {
+                  "type": "constant",
+                  "value": "Eメールを送りました"
+                },
+                "info.emailVerified": {
+                  "type": "constant",
+                  "value": "Eメールが確認されました"
+                },
+                "info.passwordChanged": {
+                  "type": "constant",
+                  "value": "パスワードが変更されました"
+                },
+                "info.passwordReset": {
+                  "type": "constant",
+                  "value": "パスワードがリセットされました"
+                },
+                "error.emailRequired": {
+                  "type": "constant",
+                  "value": "Eメールが必要です"
+                },
+                "error.minChar": {
+                  "type": "constant",
+                  "value": "パスワードには最低7文字必要です"
+                },
+                "error.pwdsDontMatch": {
+                  "type": "constant",
+                  "value": "パスワードが違います"
+                },
+                "error.pwOneDigit": {
+                  "type": "constant",
+                  "value": "パスワードは少なくとも1つ数字を含む必要があります"
+                },
+                "error.pwOneLetter": {
+                  "type": "constant",
+                  "value": "パスワードは少なく遠m1つアルファベットを含む必要があります"
+                },
+                "error.signInRequired": {
+                  "type": "constant",
+                  "value": "その操作にはサインインが必要です"
+                },
+                "error.signupCodeIncorrect": {
+                  "type": "constant",
+                  "value": "レジストレーションコードが間違っています"
+                },
+                "error.signupCodeRequired": {
+                  "type": "constant",
+                  "value": "レジストレーションコードが必要です"
+                },
+                "error.usernameIsEmail": {
+                  "type": "constant",
+                  "value": "ユーザー名にEメールアドレスは使えません"
+                },
+                "error.usernameRequired": {
+                  "type": "constant",
+                  "value": "ユーザー名が必要です"
+                },
+                "error.accounts.Email already exists.": {
+                  "type": "constant",
+                  "value": "そのEメールは既に登録されています"
+                },
+                "error.accounts.Email doesn't match the criteria.": {
+                  "type": "constant",
+                  "value": "Eメールが基準を満たしていません"
+                },
+                "error.accounts.Invalid login token": {
+                  "type": "constant",
+                  "value": "無効なログイントークンです"
+                },
+                "error.accounts.Login forbidden": {
+                  "type": "constant",
+                  "value": "ログインが許可されません"
+                },
+                "error.accounts.Service unknown": {
+                  "type": "constant",
+                  "value": "サービスが不明です"
+                },
+                "error.accounts.Unrecognized options for login request": {
+                  "type": "constant",
+                  "value": "ログインリクエストのオプションが認識できません"
+                },
+                "error.accounts.User validation failed": {
+                  "type": "constant",
+                  "value": "ユーザー確認できません"
+                },
+                "error.accounts.Username already exists.": {
+                  "type": "constant",
+                  "value": "そのユーザー名は既に使われています"
+                },
+                "error.accounts.You are not logged in.": {
+                  "type": "constant",
+                  "value": "ログインしていません"
+                },
+                "error.accounts.You've been logged out by the server. Please log in again.": {
+                  "type": "constant",
+                  "value": "ログアウトされました。再度ログインしてください"
+                },
+                "error.accounts.Your session has expired. Please log in again.": {
+                  "type": "constant",
+                  "value": "セッションが切れました。再度ログインしてください"
+                },
+                "error.accounts.No matching login attempt found": {
+                  "type": "constant",
+                  "value": "対応のログイン試行が見つかりません"
+                },
+                "error.accounts.Password is old. Please reset your password.": {
+                  "type": "constant",
+                  "value": "パスワードが古くなりました。パスワードをリセットしてください"
+                },
+                "error.accounts.Incorrect password": {
+                  "type": "constant",
+                  "value": "パスワードが正しくありません"
+                },
+                "error.accounts.Invalid email": {
+                  "type": "constant",
+                  "value": "Eメールが無効です"
+                },
+                "error.accounts.Must be logged in": {
+                  "type": "constant",
+                  "value": "ログインが必要です"
+                },
+                "error.accounts.Need to set a username or email": {
+                  "type": "constant",
+                  "value": "ユーザー名かEメールを設定する必要があります"
+                },
+                "error.accounts.old password format": {
+                  "type": "constant",
+                  "value": "パスワード形式が古いものです"
+                },
+                "error.accounts.Password may not be empty": {
+                  "type": "constant",
+                  "value": "パスワードが入力されていないようです"
+                },
+                "error.accounts.Signups forbidden": {
+                  "type": "constant",
+                  "value": "サインアップが禁止されています"
+                },
+                "error.accounts.Token expired": {
+                  "type": "constant",
+                  "value": "トークンが切れました"
+                },
+                "error.accounts.Token has invalid email address": {
+                  "type": "constant",
+                  "value": "トークンが無効なEメールアドレスを含んでいます"
+                },
+                "error.accounts.User has no password set": {
+                  "type": "constant",
+                  "value": "パスワードが設定されていません"
+                },
+                "error.accounts.User not found": {
+                  "type": "constant",
+                  "value": "ユーザーが見つかりません"
+                },
+                "error.accounts.Verify email link expired": {
+                  "type": "constant",
+                  "value": "Eメールリンクが切れたか確認する"
+                },
+                "error.accounts.Verify email link is for unknown address": {
+                  "type": "constant",
+                  "value": "Eメールリンクが不明なアドレス用か確認する"
+                },
+                "error.accounts.Match failed": {
+                  "type": "constant",
+                  "value": "一致しませんでした"
+                },
+                "error.accounts.Unknown error": {
+                  "type": "constant",
+                  "value": "不明なエラー"
                 }
               }
             },
@@ -14775,6 +15705,327 @@ var packageMetadata = {
                 "error.accounts.Unknown error": {
                   "type": "constant",
                   "value": "Erro desconhecido"
+                }
+              }
+            },
+            "ro": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "constant",
+                  "value": "adaugă"
+                },
+                "and": {
+                  "type": "constant",
+                  "value": "și"
+                },
+                "back": {
+                  "type": "constant",
+                  "value": "înapoi"
+                },
+                "changePassword": {
+                  "type": "constant",
+                  "value": "Schimbare parolă"
+                },
+                "choosePassword": {
+                  "type": "constant",
+                  "value": "Alege o parolă"
+                },
+                "clickAgree": {
+                  "type": "constant",
+                  "value": "Click pe Register, sunteți de acord"
+                },
+                "configure": {
+                  "type": "constant",
+                  "value": "Configurare"
+                },
+                "createAccount": {
+                  "type": "constant",
+                  "value": "Creați un cont"
+                },
+                "currentPassword": {
+                  "type": "constant",
+                  "value": "Parola curentă"
+                },
+                "dontHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Nu ai un cont?"
+                },
+                "email": {
+                  "type": "constant",
+                  "value": "E-mail"
+                },
+                "emailAddress": {
+                  "type": "constant",
+                  "value": "Adresa de e-mail"
+                },
+                "emailResetLink": {
+                  "type": "constant",
+                  "value": "Link de resetare parolă"
+                },
+                "forgotPassword": {
+                  "type": "constant",
+                  "value": "Ți-ai uitat parola?"
+                },
+                "ifYouAlreadyHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Dacă ai deja un cont"
+                },
+                "newPassword": {
+                  "type": "constant",
+                  "value": "Parolă nouă"
+                },
+                "newPasswordAgain": {
+                  "type": "constant",
+                  "value": "Parolă nouă (din nou)"
+                },
+                "optional": {
+                  "type": "constant",
+                  "value": "Opțional"
+                },
+                "OR": {
+                  "type": "constant",
+                  "value": "SAU"
+                },
+                "password": {
+                  "type": "constant",
+                  "value": "Parolă"
+                },
+                "passwordAgain": {
+                  "type": "constant",
+                  "value": "Parolă (din nou)"
+                },
+                "privacyPolicy": {
+                  "type": "constant",
+                  "value": "Politica de confidentialitate"
+                },
+                "remove": {
+                  "type": "constant",
+                  "value": "Elimină"
+                },
+                "resetYourPassword": {
+                  "type": "constant",
+                  "value": "Schimbati parola"
+                },
+                "setPassword": {
+                  "type": "constant",
+                  "value": "Setati parola"
+                },
+                "sign": {
+                  "type": "constant",
+                  "value": "Înregistrează"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "Autentificare"
+                },
+                "signin": {
+                  "type": "constant",
+                  "value": "Autentificare"
+                },
+                "signOut": {
+                  "type": "constant",
+                  "value": "Deconectare"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "Înregistrare"
+                },
+                "signupCode": {
+                  "type": "constant",
+                  "value": "Codul de înregistrare"
+                },
+                "signUpWithYourEmailAddress": {
+                  "type": "constant",
+                  "value": "Înregistrați-vă adresa de e-mail"
+                },
+                "terms": {
+                  "type": "constant",
+                  "value": "Condiții de utilizare"
+                },
+                "updateYourPassword": {
+                  "type": "constant",
+                  "value": "Actualizați parola dvs."
+                },
+                "username": {
+                  "type": "constant",
+                  "value": "Nume utilizator"
+                },
+                "usernameOrEmail": {
+                  "type": "constant",
+                  "value": "Nume utilizator sau e-mail"
+                },
+                "with": {
+                  "type": "constant",
+                  "value": "cu"
+                },
+                "info.emailSent": {
+                  "type": "constant",
+                  "value": "Email trimis"
+                },
+                "info.emailVerified": {
+                  "type": "constant",
+                  "value": "Email verificat"
+                },
+                "info.passwordChanged": {
+                  "type": "constant",
+                  "value": "Parola a fost schimbata"
+                },
+                "info.passwordReset": {
+                  "type": "constant",
+                  "value": "Resetare parola"
+                },
+                "error.emailRequired": {
+                  "type": "constant",
+                  "value": "Introduceti Email-ul."
+                },
+                "error.minChar": {
+                  "type": "constant",
+                  "value": "Parolă minima de 7 caractere "
+                },
+                "error.pwdsDontMatch": {
+                  "type": "constant",
+                  "value": "Parolele nu se potrivesc"
+                },
+                "error.pwOneDigit": {
+                  "type": "constant",
+                  "value": "Parola trebuie să contină cel puțin o cifră."
+                },
+                "error.pwOneLetter": {
+                  "type": "constant",
+                  "value": "Parola necesită o scrisoare."
+                },
+                "error.signInRequired": {
+                  "type": "constant",
+                  "value": "Autentificare."
+                },
+                "error.signupCodeIncorrect": {
+                  "type": "constant",
+                  "value": "Codul de înregistrare este incorectă."
+                },
+                "error.signupCodeRequired": {
+                  "type": "constant",
+                  "value": "Aveti nevoie de cod de înregistrare."
+                },
+                "error.usernameIsEmail": {
+                  "type": "constant",
+                  "value": "Numele de utilizator nu poate fi o adresă de e-mail."
+                },
+                "error.usernameRequired": {
+                  "type": "constant",
+                  "value": "Introduceti numele de utilizator."
+                },
+                "error.accounts.Email already exists.": {
+                  "type": "constant",
+                  "value": "E-mail există deja."
+                },
+                "error.accounts.Email doesn't match the criteria.": {
+                  "type": "constant",
+                  "value": "E-mail nu se potrivește cu criteriile."
+                },
+                "error.accounts.Invalid login token": {
+                  "type": "constant",
+                  "value": "Token invalid"
+                },
+                "error.accounts.Login forbidden": {
+                  "type": "constant",
+                  "value": "Autentificare interzisă"
+                },
+                "error.accounts.Service unknown": {
+                  "type": "constant",
+                  "value": "Service necunoscut"
+                },
+                "error.accounts.Unrecognized options for login request": {
+                  "type": "constant",
+                  "value": "Opțiuni nerecunoscute de cerere de conectare"
+                },
+                "error.accounts.User validation failed": {
+                  "type": "constant",
+                  "value": "Validare utilizator nereușit"
+                },
+                "error.accounts.Username already exists.": {
+                  "type": "constant",
+                  "value": "Numele de utilizator existent."
+                },
+                "error.accounts.You are not logged in.": {
+                  "type": "constant",
+                  "value": "Nu sunteti autentificat."
+                },
+                "error.accounts.You've been logged out by the server. Please log in again.": {
+                  "type": "constant",
+                  "value": "Ați fost deconectat de către server rugam sa va logati din nou."
+                },
+                "error.accounts.Your session has expired. Please log in again.": {
+                  "type": "constant",
+                  "value": "Sesiunea a expirat rugam sa va logati din nou."
+                },
+                "error.accounts.No matching login attempt found": {
+                  "type": "constant",
+                  "value": "Autentificare nereusită"
+                },
+                "error.accounts.Password is old. Please reset your password.": {
+                  "type": "constant",
+                  "value": "Parola expirata, Vă rugăm să resetati parola."
+                },
+                "error.accounts.Incorrect password": {
+                  "type": "constant",
+                  "value": "Parola incorectă"
+                },
+                "error.accounts.Invalid email": {
+                  "type": "constant",
+                  "value": "E-mail invalid"
+                },
+                "error.accounts.Must be logged in": {
+                  "type": "constant",
+                  "value": "Trebuie sa fii logat"
+                },
+                "error.accounts.Need to set a username or email": {
+                  "type": "constant",
+                  "value": "Adaugati un nume utilizator sau un e-mail"
+                },
+                "error.accounts.old password format": {
+                  "type": "constant",
+                  "value": "Parola cu format vechi"
+                },
+                "error.accounts.Password may not be empty": {
+                  "type": "constant",
+                  "value": "Parola nu poate fi gol"
+                },
+                "error.accounts.Signups forbidden": {
+                  "type": "constant",
+                  "value": "Înscrieri interzisă"
+                },
+                "error.accounts.Token expired": {
+                  "type": "constant",
+                  "value": "Token expirat"
+                },
+                "error.accounts.Token has invalid email address": {
+                  "type": "constant",
+                  "value": "Token are adresă de email invalidă"
+                },
+                "error.accounts.User has no password set": {
+                  "type": "constant",
+                  "value": "Utilizator nu are parola setată"
+                },
+                "error.accounts.User not found": {
+                  "type": "constant",
+                  "value": "Utilizator nu a fost găsit"
+                },
+                "error.accounts.Verify email link expired": {
+                  "type": "constant",
+                  "value": "Link-ul de e-mail a expirat"
+                },
+                "error.accounts.Verify email link is for unknown address": {
+                  "type": "constant",
+                  "value": "Link-ul de e-mail nu corespunde"
+                },
+                "error.accounts.Match failed": {
+                  "type": "constant",
+                  "value": "Potrivire nereușită"
+                },
+                "error.accounts.Unknown error": {
+                  "type": "constant",
+                  "value": "Eroare necunoscută"
                 }
               }
             },
@@ -15473,11 +16724,11 @@ var packageMetadata = {
                 },
                 "emailResetLink": {
                   "type": "constant",
-                  "value": "E-post återställningslänk"
+                  "value": "Återställningslänk för e-post"
                 },
                 "forgotPassword": {
                   "type": "constant",
-                  "value": "Glömt din e-postadress?"
+                  "value": "Glömt ditt lösenord?"
                 },
                 "ifYouAlreadyHaveAnAccount": {
                   "type": "constant",
@@ -15521,7 +16772,7 @@ var packageMetadata = {
                 },
                 "setPassword": {
                   "type": "constant",
-                  "value": "Sätt ett lösenord"
+                  "value": "Välj lösenord"
                 },
                 "sign": {
                   "type": "constant",
@@ -15553,7 +16804,7 @@ var packageMetadata = {
                 },
                 "terms": {
                   "type": "constant",
-                  "value": "användarvilkor"
+                  "value": "användarvillkor"
                 },
                 "updateYourPassword": {
                   "type": "constant",
@@ -15589,7 +16840,7 @@ var packageMetadata = {
                 },
                 "error.emailRequired": {
                   "type": "constant",
-                  "value": "Det krävs ett lösenord."
+                  "value": "Det krävs en e-postaddress."
                 },
                 "error.minChar": {
                   "type": "constant",
@@ -17682,15 +18933,15 @@ var packageMetadata = {
           "members": {
             "depend": {
               "type": "function",
-              "refID": 28
+              "refID": 31
             },
             "changed": {
               "type": "function",
-              "refID": 30
+              "refID": 33
             },
             "hasDependents": {
               "type": "function",
-              "refID": 32
+              "refID": 35
             }
           }
         },
@@ -17698,13 +18949,13 @@ var packageMetadata = {
           "type": "object",
           "members": {
             "depend": {
-              "ref": 28
+              "ref": 31
             },
             "changed": {
-              "ref": 30
+              "ref": 33
             },
             "hasDependents": {
-              "ref": 32
+              "ref": 35
             }
           }
         },
@@ -17824,229 +19075,7 @@ var packageMetadata = {
     }
   },
   "accounts-password": {},
-  "wizonesolutions:underscore-string": {
-    "_s": {
-      "type": "object",
-      "members": {
-        "VERSION": {
-          "type": "constant",
-          "value": "2.3.0"
-        },
-        "isBlank": {
-          "type": "function"
-        },
-        "stripTags": {
-          "type": "function"
-        },
-        "capitalize": {
-          "type": "function"
-        },
-        "chop": {
-          "type": "function"
-        },
-        "clean": {
-          "type": "function"
-        },
-        "count": {
-          "type": "function"
-        },
-        "chars": {
-          "type": "function"
-        },
-        "swapCase": {
-          "type": "function"
-        },
-        "escapeHTML": {
-          "type": "function"
-        },
-        "unescapeHTML": {
-          "type": "function"
-        },
-        "escapeRegExp": {
-          "type": "function"
-        },
-        "splice": {
-          "type": "function"
-        },
-        "insert": {
-          "type": "function"
-        },
-        "include": {
-          "type": "function",
-          "refID": 27
-        },
-        "join": {
-          "type": "function"
-        },
-        "lines": {
-          "type": "function"
-        },
-        "reverse": {
-          "type": "function"
-        },
-        "startsWith": {
-          "type": "function"
-        },
-        "endsWith": {
-          "type": "function"
-        },
-        "succ": {
-          "type": "function"
-        },
-        "titleize": {
-          "type": "function"
-        },
-        "camelize": {
-          "type": "function"
-        },
-        "underscored": {
-          "type": "function"
-        },
-        "dasherize": {
-          "type": "function"
-        },
-        "classify": {
-          "type": "function"
-        },
-        "humanize": {
-          "type": "function"
-        },
-        "trim": {
-          "type": "function",
-          "refID": 53
-        },
-        "ltrim": {
-          "type": "function",
-          "refID": 55
-        },
-        "rtrim": {
-          "type": "function",
-          "refID": 57
-        },
-        "truncate": {
-          "type": "function"
-        },
-        "prune": {
-          "type": "function"
-        },
-        "words": {
-          "type": "function"
-        },
-        "pad": {
-          "type": "function"
-        },
-        "lpad": {
-          "type": "function",
-          "refID": 67
-        },
-        "rpad": {
-          "type": "function",
-          "refID": 69
-        },
-        "lrpad": {
-          "type": "function",
-          "refID": 71
-        },
-        "sprintf": {
-          "type": "function",
-          "members": {
-            "format": {
-              "type": "function"
-            },
-            "cache": {
-              "type": "object"
-            },
-            "parse": {
-              "type": "function"
-            }
-          }
-        },
-        "vsprintf": {
-          "type": "function"
-        },
-        "toNumber": {
-          "type": "function"
-        },
-        "numberFormat": {
-          "type": "function"
-        },
-        "strRight": {
-          "type": "function"
-        },
-        "strRightBack": {
-          "type": "function"
-        },
-        "strLeft": {
-          "type": "function"
-        },
-        "strLeftBack": {
-          "type": "function"
-        },
-        "toSentence": {
-          "type": "function"
-        },
-        "toSentenceSerial": {
-          "type": "function"
-        },
-        "slugify": {
-          "type": "function"
-        },
-        "surround": {
-          "type": "function"
-        },
-        "quote": {
-          "type": "function",
-          "refID": 102
-        },
-        "unquote": {
-          "type": "function"
-        },
-        "exports": {
-          "type": "function"
-        },
-        "repeat": {
-          "type": "function"
-        },
-        "naturalCmp": {
-          "type": "function"
-        },
-        "levenshtein": {
-          "type": "function"
-        },
-        "toBoolean": {
-          "type": "function",
-          "refID": 114
-        },
-        "strip": {
-          "ref": 53
-        },
-        "lstrip": {
-          "ref": 55
-        },
-        "rstrip": {
-          "ref": 57
-        },
-        "center": {
-          "ref": 71
-        },
-        "rjust": {
-          "ref": 67
-        },
-        "ljust": {
-          "ref": 69
-        },
-        "contains": {
-          "ref": 27
-        },
-        "q": {
-          "ref": 102
-        },
-        "toBool": {
-          "ref": 114
-        }
-      }
-    }
-  },
+  "underscorestring:underscore.string": {},
   "zimme:iron-router-active": {},
   "natestrauser:connection-banner": {},
   "twbs:bootstrap": {},
@@ -18068,6 +19097,482 @@ var packageMetadata = {
       }
     }
   },
+  "velocity:chokidar": {
+    "chokidar": {
+      "type": "object",
+      "members": {
+        "isBinaryPath": {
+          "type": "function"
+        },
+        "FSWatcher": {
+          "type": "function",
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "function"
+                },
+                "close": {
+                  "type": "function"
+                },
+                "setMaxListeners": {
+                  "type": "function"
+                },
+                "emit": {
+                  "type": "function"
+                },
+                "addListener": {
+                  "type": "function",
+                  "refID": 13
+                },
+                "on": {
+                  "ref": 13
+                },
+                "once": {
+                  "type": "function"
+                },
+                "removeListener": {
+                  "type": "function"
+                },
+                "removeAllListeners": {
+                  "type": "function"
+                },
+                "listeners": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "watch": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "velocity:meteor-internals": {
+    "VelocityMeteorInternals": {
+      "type": "object",
+      "members": {
+        "parseStack": {
+          "type": "object",
+          "members": {
+            "markBottom": {
+              "type": "function"
+            }
+          }
+        },
+        "buildmessage": {
+          "type": "object",
+          "members": {
+            "markBoundary": {
+              "type": "function"
+            }
+          }
+        },
+        "files": {
+          "type": "object",
+          "members": {
+            "cwd": {
+              "type": "function"
+            },
+            "findAppDir": {
+              "type": "function"
+            },
+            "findPackageDir": {
+              "type": "function"
+            },
+            "statOrNull": {
+              "type": "function"
+            },
+            "runJavaScript": {
+              "type": "function"
+            },
+            "FancySyntaxError": {
+              "type": "function"
+            },
+            "writeFile": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "writeFile"
+                }
+              }
+            },
+            "appendFile": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "appendFile"
+                }
+              }
+            },
+            "readFile": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "readFile"
+                }
+              }
+            },
+            "stat": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "stat"
+                }
+              }
+            },
+            "lstat": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "lstat"
+                }
+              }
+            },
+            "exists": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "exists"
+                }
+              }
+            },
+            "rename": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "rename"
+                }
+              }
+            },
+            "realpath": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "realpath"
+                }
+              }
+            },
+            "readdir": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "readdir"
+                }
+              }
+            },
+            "rmdir": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "rmdir"
+                }
+              }
+            },
+            "mkdir": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "mkdir"
+                }
+              }
+            },
+            "unlink": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "unlink"
+                }
+              }
+            },
+            "chmod": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "chmod"
+                }
+              }
+            },
+            "open": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "open"
+                }
+              }
+            },
+            "read": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "read"
+                }
+              }
+            },
+            "write": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "write"
+                }
+              }
+            },
+            "close": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "close"
+                }
+              }
+            },
+            "symlink": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "symlink"
+                }
+              }
+            },
+            "readlink": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "readlink"
+                }
+              }
+            },
+            "createReadStream": {
+              "type": "function"
+            },
+            "createWriteStream": {
+              "type": "function"
+            },
+            "watchFile": {
+              "type": "function"
+            },
+            "unwatchFile": {
+              "type": "function"
+            },
+            "pathJoin": {
+              "type": "function"
+            },
+            "pathNormalize": {
+              "type": "function"
+            },
+            "pathRelative": {
+              "type": "function"
+            },
+            "pathResolve": {
+              "type": "function"
+            },
+            "pathDirname": {
+              "type": "function"
+            },
+            "pathBasename": {
+              "type": "function"
+            },
+            "pathExtname": {
+              "type": "function"
+            },
+            "pathSep": {
+              "type": "constant",
+              "value": "/"
+            },
+            "pathDelimiter": {
+              "type": "constant",
+              "value": ":"
+            },
+            "pathOsDelimiter": {
+              "type": "constant",
+              "value": ":"
+            },
+            "convertToStandardPath": {
+              "type": "function"
+            },
+            "convertToOSPath": {
+              "type": "function"
+            },
+            "convertToWindowsPath": {
+              "type": "function"
+            },
+            "convertToPosixPath": {
+              "type": "function"
+            },
+            "convertToStandardLineEndings": {
+              "type": "function"
+            },
+            "convertToOSLineEndings": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sanjo:long-running-child-process": {
+    "LongRunningChildProcess": {
+      "type": "function",
+      "members": {
+        "prototype": {
+          "type": "object",
+          "members": {
+            "taskName": {
+              "type": "null",
+              "value": null
+            },
+            "child": {
+              "type": "null",
+              "value": null
+            },
+            "pid": {
+              "type": "null",
+              "value": null
+            },
+            "getTaskName": {
+              "type": "function"
+            },
+            "getChild": {
+              "type": "function"
+            },
+            "getPid": {
+              "type": "function"
+            },
+            "isDead": {
+              "type": "function"
+            },
+            "isRunning": {
+              "type": "function"
+            },
+            "readPid": {
+              "type": "function"
+            },
+            "spawn": {
+              "type": "function"
+            },
+            "kill": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sanjo:meteor-version": {
+    "MeteorVersion": {
+      "type": "object",
+      "members": {
+        "getSemanticVersion": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "package-version-parser": {
+    "PackageVersion": {
+      "type": "function",
+      "members": {
+        "parse": {
+          "type": "function"
+        },
+        "versionMagnitude": {
+          "type": "function"
+        },
+        "lessThan": {
+          "type": "function"
+        },
+        "majorVersion": {
+          "type": "function"
+        },
+        "compare": {
+          "type": "function"
+        },
+        "getValidServerVersion": {
+          "type": "function"
+        },
+        "VersionConstraint": {
+          "type": "function"
+        },
+        "parseVersionConstraint": {
+          "type": "function"
+        },
+        "PackageConstraint": {
+          "type": "function",
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "toString": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "parsePackageConstraint": {
+          "type": "function"
+        },
+        "validatePackageName": {
+          "type": "function"
+        },
+        "invalidFirstFormatConstraint": {
+          "type": "function"
+        },
+        "removeBuildID": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "sanjo:meteor-files-helpers": {
+    "MeteorFilesHelpers": {
+      "type": "object",
+      "members": {
+        "getAppPath": {
+          "type": "function"
+        },
+        "getMeteorToolPath": {
+          "type": "function"
+        },
+        "getMeteorInstallationPath": {
+          "type": "function"
+        },
+        "getNodeModulePath": {
+          "type": "function"
+        },
+        "getPackageVersions": {
+          "type": "function"
+        },
+        "getPackageVersion": {
+          "type": "function"
+        },
+        "isPackageInstalled": {
+          "type": "function"
+        }
+      }
+    }
+  },
   "velocity:core": {
     "Velocity": {
       "type": "object",
@@ -18079,6 +19584,12 @@ var packageMetadata = {
           "type": "function"
         },
         "getTestsPath": {
+          "type": "function"
+        },
+        "getPackagesPath": {
+          "type": "function"
+        },
+        "getPackagePath": {
           "type": "function"
         },
         "postProcessors": {
@@ -18096,21 +19607,38 @@ var packageMetadata = {
         "onTest": {
           "type": "function"
         },
-        "Mirror": {
-          "type": "object",
-          "members": {
-            "start": {
-              "type": "function"
-            }
-          }
+        "setOption": {
+          "type": "function"
         },
-        "ProxyPackageSync": {
-          "type": "object",
-          "members": {
-            "regeneratePackageJs": {
-              "type": "function"
-            }
-          }
+        "setOptions": {
+          "type": "function"
+        },
+        "getOption": {
+          "type": "function"
+        },
+        "mirrorMeteorReleaseName": {
+          "type": "constant",
+          "value": "velocity:METEOR"
+        },
+        "mirrorMeteorVersion": {
+          "type": "constant",
+          "value": "1.1.0.2_1"
+        },
+        "mirrorMeteorRelease": {
+          "type": "constant",
+          "value": "velocity:METEOR@1.1.0.2_1"
+        },
+        "mirrorMeteorToolReleaseName": {
+          "type": "constant",
+          "value": "velocity:meteor-tool"
+        },
+        "mirrorMeteorToolVersion": {
+          "type": "constant",
+          "value": "1.1.3_2"
+        },
+        "mirrorMeteorToolRelease": {
+          "type": "constant",
+          "value": "velocity:meteor-tool@1.1.3_2"
         }
       }
     },
@@ -18323,6 +19851,41 @@ var packageMetadata = {
           "type": "function"
         }
       }
+    },
+    "VelocityOptions": {
+      "type": "object",
+      "members": {
+        "find": {
+          "type": "function"
+        },
+        "findOne": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "update": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        }
+      }
     }
   },
   "velocity:shim": {},
@@ -18334,138 +19897,6 @@ var packageMetadata = {
           "type": "function"
         },
         "uninstall": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "alanning:package-stubber": {
-    "PackageStubber": {
-      "type": "object",
-      "members": {
-        "functionReplacementStr": {
-          "type": "constant",
-          "value": "function emptyFn () {}"
-        },
-        "validate": {
-          "type": "object",
-          "members": {
-            "stubPackages": {
-              "type": "function"
-            },
-            "deepCopyReplaceFn": {
-              "type": "function"
-            }
-          }
-        },
-        "stubPackages": {
-          "type": "function"
-        },
-        "listTestPackages": {
-          "type": "function"
-        },
-        "listPackages": {
-          "type": "function"
-        },
-        "listPackageExports": {
-          "type": "function"
-        },
-        "deepCopyReplaceFn": {
-          "type": "function"
-        },
-        "shouldIgnorePackage": {
-          "type": "function"
-        },
-        "replaceFnPlaceholders": {
-          "type": "function"
-        },
-        "stubGenerators": {
-          "type": "object",
-          "members": {
-            "function": {
-              "type": "function"
-            },
-            "object": {
-              "type": "function"
-            },
-            "string": {
-              "type": "function"
-            },
-            "number": {
-              "type": "function"
-            },
-            "undefined": {
-              "type": "function"
-            }
-          }
-        },
-        "generateStubJsCode": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "sanjo:meteor-version": {
-    "MeteorVersion": {
-      "type": "object",
-      "members": {
-        "getSemanticVersion": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "package-version-parser": {
-    "PackageVersion": {
-      "type": "function",
-      "members": {
-        "parse": {
-          "type": "function"
-        },
-        "versionMagnitude": {
-          "type": "function"
-        },
-        "lessThan": {
-          "type": "function"
-        },
-        "majorVersion": {
-          "type": "function"
-        },
-        "compare": {
-          "type": "function"
-        },
-        "getValidServerVersion": {
-          "type": "function"
-        },
-        "VersionConstraint": {
-          "type": "function"
-        },
-        "parseVersionConstraint": {
-          "type": "function"
-        },
-        "PackageConstraint": {
-          "type": "function",
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "toString": {
-                  "type": "function"
-                }
-              }
-            }
-          }
-        },
-        "parsePackageConstraint": {
-          "type": "function"
-        },
-        "validatePackageName": {
-          "type": "function"
-        },
-        "invalidFirstFormatConstraint": {
-          "type": "function"
-        },
-        "removeBuildID": {
           "type": "function"
         }
       }
@@ -18487,50 +19918,7 @@ var packageMetadata = {
       "type": "object",
       "members": {
         "karmaChilds": {
-          "type": "object",
-          "members": {
-            "jasmine-client-unit": {
-              "type": "object",
-              "members": {
-                "taskName": {
-                  "type": "constant",
-                  "value": "jasmine-client-unit"
-                },
-                "appPath": {
-                  "type": "constant",
-                  "value": "/Users/justin/modweb/liftoff"
-                },
-                "pid": {
-                  "type": "constant",
-                  "value": 22149
-                },
-                "getTaskName": {
-                  "type": "function"
-                },
-                "getChild": {
-                  "type": "function"
-                },
-                "getPid": {
-                  "type": "function"
-                },
-                "isDead": {
-                  "type": "function"
-                },
-                "isRunning": {
-                  "type": "function"
-                },
-                "readPid": {
-                  "type": "function"
-                },
-                "spawn": {
-                  "type": "function"
-                },
-                "kill": {
-                  "type": "function"
-                }
-              }
-            }
-          }
+          "type": "object"
         },
         "getKarmaChild": {
           "type": "function"
@@ -18551,9 +19939,6 @@ var packageMetadata = {
           "type": "function"
         },
         "getConfigPath": {
-          "type": "function"
-        },
-        "getAppPath": {
           "type": "function"
         },
         "getKarmaPath": {
@@ -18610,11 +19995,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "z4v4hAnRXhG4k9Emc"
+          "value": "0a40db81894ee589044d5a10ceb6926bc83e80d2"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "abdc37e850f0d1b56a761a5b1b8661739c873a8b"
+          "value": "d2faf24157ef40690ec9c0176ed11019c4e23add"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -18742,9 +20127,7 @@ var packageMetadata = {
         }
       }
     }
-  },
-  "velocity:test-proxy": {},
-  "velocity:node-soft-mirror": {}
+  }
 }
 var globalContext = (typeof global !== 'undefined') ? global : window
 var originalContext = []
