@@ -6,4 +6,4 @@
       'click .logout': (event) ->
         AccountsTemplates.logout()
       'click a': (event) ->
-        $('.navbar-toggle').click()
+        $('.navbar-collapse').collapse 'hide'
