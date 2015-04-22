@@ -1,6 +1,6 @@
 #Liftoff
 
-Opinionated boilerplate to get your [Meteor](https://meteor.com) project off the ground written in literal coffeescript using Meteor v1.0.5.
+Opinionated boilerplate to get your [Meteor](https://meteor.com) project off the ground written in literal coffeescript using Meteor v1.1.0.2.
 
 Liftoff is designed to be a basic starting point for any Meteor project.
 
