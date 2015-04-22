@@ -5,3 +5,5 @@
         if Meteor.user() then AccountsTemplates.logout()
       'click .logout': (event) ->
         AccountsTemplates.logout()
+      'click a': (event) ->
+        $('.navbar-toggle').click()
