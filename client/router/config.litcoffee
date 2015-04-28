@@ -9,6 +9,7 @@
     filters =
       isLoggedIn: ->
         Router.go 'home' unless Meteor.loggingIn() or Meteor.user()
+        this.next()
 
 Login filter, except public routes
 
