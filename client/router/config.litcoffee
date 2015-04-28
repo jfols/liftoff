@@ -8,7 +8,9 @@
 
     filters =
       isLoggedIn: ->
-        Router.go 'home' unless Meteor.loggingIn() or Meteor.user()
+        if not (Meteor.loggingIn() or Meteor.user())
+          Router.go 'atSignIn'
+          sweetAlert 'Whoa there!', 'You have to create an account before you can do that.', 'error'
         this.next()
 
 Login filter, except public routes
