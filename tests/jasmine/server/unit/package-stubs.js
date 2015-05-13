@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "01b914fe6e32077223cac4de1ee3e8217dc9b1a2"
+                  "value": "98a5e17d39285aea535b41c18812856c43641ad3"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 0
+              "value": 6
             },
             "timeout": {
               "type": "constant",
@@ -9484,14 +9484,6 @@ var packageMetadata = {
         "options": {
           "type": "object",
           "members": {
-            "privacyUrl": {
-              "type": "constant",
-              "value": "privacy"
-            },
-            "termsUrl": {
-              "type": "constant",
-              "value": "terms-of-use"
-            },
             "homeRoutePath": {
               "type": "constant",
               "value": "/"
@@ -9507,6 +9499,12 @@ var packageMetadata = {
             "socialLoginStyle": {
               "type": "constant",
               "value": "popup"
+            },
+            "privacyUrl": {
+              "type": "undefined"
+            },
+            "termsUrl": {
+              "type": "undefined"
             },
             "onSubmitHook": {
               "type": "undefined"
@@ -19987,6 +19985,7 @@ var packageMetadata = {
       }
     }
   },
+  "kevohagan:sweetalert": {},
   "reload": {},
   "autoupdate": {
     "Autoupdate": {
@@ -19994,11 +19993,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "0a40db81894ee589044d5a10ceb6926bc83e80d2"
+          "value": "23dd3c51261bf2fe82b3ae3b37b68e1eb1e40ac7"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "d2faf24157ef40690ec9c0176ed11019c4e23add"
+          "value": "798a3b0a7318a91bc08a7c861ceaf3c7c4a93b46"
         },
         "autoupdateVersionCordova": {
           "type": "constant",

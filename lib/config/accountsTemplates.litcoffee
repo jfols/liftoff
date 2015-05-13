@@ -27,9 +27,10 @@
         navSignIn: 'Sign In'
         navSignOut: 'Logout'
         button:
-          signUp: 'Register'
+          signUp: 'Create an account'
         title:
           forgotPwd: 'Recover Your Password'
+          signIn: ''
 
     AccountsTemplates.removeField 'email'
     password = AccountsTemplates.removeField 'password'
