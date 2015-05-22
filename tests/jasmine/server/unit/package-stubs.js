@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "98a5e17d39285aea535b41c18812856c43641ad3"
+                  "value": "214c253f7bfc1fe198084b079ed3021b65a57121"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 6
+              "value": 0
             },
             "timeout": {
               "type": "constant",
@@ -9527,7 +9527,7 @@ var packageMetadata = {
               "members": {
                 "signUp": {
                   "type": "constant",
-                  "value": "Register"
+                  "value": "Create an account"
                 },
                 "changePwd": {
                   "type": "constant",
@@ -9754,6 +9754,10 @@ var packageMetadata = {
                   "type": "constant",
                   "value": "Recover Your Password"
                 },
+                "signIn": {
+                  "type": "constant",
+                  "value": ""
+                },
                 "changePwd": {
                   "type": "constant",
                   "value": "changePassword"
@@ -9765,10 +9769,6 @@ var packageMetadata = {
                 "resetPwd": {
                   "type": "constant",
                   "value": "resetYourPassword"
-                },
-                "signIn": {
-                  "type": "constant",
-                  "value": "signIn"
                 },
                 "signUp": {
                   "type": "constant",
@@ -19993,7 +19993,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "23dd3c51261bf2fe82b3ae3b37b68e1eb1e40ac7"
+          "value": "95e0b9fbb0a32f2d31c281dcbd0b91ef3bacb8fa"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
