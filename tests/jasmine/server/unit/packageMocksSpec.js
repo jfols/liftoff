@@ -7086,7 +7086,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "214c253f7bfc1fe198084b079ed3021b65a57121"
+                  "value": "970acaf02cc5fe099bcc6771df22dff9832fb73e"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7210,7 +7210,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 0
+              "value": 6
             },
             "timeout": {
               "type": "constant",
@@ -8524,7 +8524,17 @@ var packageMetadata = {
           "type": "array"
         },
         "options": {
-          "type": "object"
+          "type": "object",
+          "members": {
+            "layoutTemplate": {
+              "type": "constant",
+              "value": "layout"
+            },
+            "loadingTemplate": {
+              "type": "constant",
+              "value": "loading"
+            }
+          }
         },
         "init": {
           "type": "function"
@@ -19994,7 +20004,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "95e0b9fbb0a32f2d31c281dcbd0b91ef3bacb8fa"
+          "value": "c22cb444468d84ec9c0b561b1dbdf639b2729d2e"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",

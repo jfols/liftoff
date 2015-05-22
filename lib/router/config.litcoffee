@@ -19,6 +19,7 @@ Login filter, except public routes
     Router.onBeforeAction filters.isLoggedIn,
       except: [
         'home'
+        'about'
         'atSignIn'
         'atSignUp'
         'atForgotPwd'
