@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "970acaf02cc5fe099bcc6771df22dff9832fb73e"
+                  "value": "d612f84c2457c903cf714329d46df8f9a1040c1e"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 6
+              "value": 0
             },
             "timeout": {
               "type": "constant",
@@ -7751,6 +7751,9 @@ var packageMetadata = {
                   "type": "function"
                 },
                 "delete": {
+                  "type": "function"
+                },
+                "patch": {
                   "type": "function"
                 }
               }
@@ -9652,6 +9655,14 @@ var packageMetadata = {
                 }
               }
             },
+            "maxAllowedLength": {
+              "type": "constant",
+              "value": "Maximum allowed length"
+            },
+            "minRequiredLength": {
+              "type": "constant",
+              "value": "Minimum required length"
+            },
             "optionalField": {
               "type": "constant",
               "value": "optional"
@@ -9667,6 +9678,10 @@ var packageMetadata = {
             "pwdLink_suff": {
               "type": "constant",
               "value": ""
+            },
+            "requiredField": {
+              "type": "constant",
+              "value": "Required Field"
             },
             "resendVerificationEmailLink_pre": {
               "type": "constant",
@@ -19082,7 +19097,493 @@ var packageMetadata = {
     }
   },
   "accounts-password": {},
-  "underscorestring:underscore.string": {},
+  "underscorestring:underscore.string": {
+    "s": {
+      "type": "function",
+      "members": {
+        "VERSION": {
+          "type": "constant",
+          "value": "3.0.3"
+        },
+        "isBlank": {
+          "type": "function"
+        },
+        "stripTags": {
+          "type": "function"
+        },
+        "capitalize": {
+          "type": "function"
+        },
+        "decapitalize": {
+          "type": "function"
+        },
+        "chop": {
+          "type": "function"
+        },
+        "trim": {
+          "type": "function",
+          "refID": 11
+        },
+        "clean": {
+          "type": "function"
+        },
+        "count": {
+          "type": "function"
+        },
+        "chars": {
+          "type": "function"
+        },
+        "swapCase": {
+          "type": "function"
+        },
+        "escapeHTML": {
+          "type": "function"
+        },
+        "unescapeHTML": {
+          "type": "function"
+        },
+        "splice": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "replaceAll": {
+          "type": "function"
+        },
+        "include": {
+          "type": "function",
+          "refID": 31
+        },
+        "join": {
+          "type": "function"
+        },
+        "lines": {
+          "type": "function"
+        },
+        "dedent": {
+          "type": "function"
+        },
+        "reverse": {
+          "type": "function"
+        },
+        "startsWith": {
+          "type": "function"
+        },
+        "endsWith": {
+          "type": "function"
+        },
+        "pred": {
+          "type": "function"
+        },
+        "succ": {
+          "type": "function"
+        },
+        "titleize": {
+          "type": "function"
+        },
+        "camelize": {
+          "type": "function",
+          "refID": 51
+        },
+        "underscored": {
+          "type": "function"
+        },
+        "dasherize": {
+          "type": "function"
+        },
+        "classify": {
+          "type": "function"
+        },
+        "humanize": {
+          "type": "function"
+        },
+        "ltrim": {
+          "type": "function",
+          "refID": 61
+        },
+        "rtrim": {
+          "type": "function",
+          "refID": 63
+        },
+        "truncate": {
+          "type": "function"
+        },
+        "prune": {
+          "type": "function"
+        },
+        "words": {
+          "type": "function"
+        },
+        "pad": {
+          "type": "function"
+        },
+        "lpad": {
+          "type": "function",
+          "refID": 73
+        },
+        "rpad": {
+          "type": "function",
+          "refID": 75
+        },
+        "lrpad": {
+          "type": "function",
+          "refID": 77
+        },
+        "sprintf": {
+          "type": "function",
+          "members": {
+            "format": {
+              "type": "function"
+            },
+            "cache": {
+              "type": "object"
+            },
+            "parse": {
+              "type": "function"
+            }
+          }
+        },
+        "vsprintf": {
+          "type": "function"
+        },
+        "toNumber": {
+          "type": "function"
+        },
+        "numberFormat": {
+          "type": "function"
+        },
+        "strRight": {
+          "type": "function"
+        },
+        "strRightBack": {
+          "type": "function"
+        },
+        "strLeft": {
+          "type": "function"
+        },
+        "strLeftBack": {
+          "type": "function"
+        },
+        "toSentence": {
+          "type": "function"
+        },
+        "toSentenceSerial": {
+          "type": "function"
+        },
+        "slugify": {
+          "type": "function"
+        },
+        "surround": {
+          "type": "function"
+        },
+        "quote": {
+          "type": "function",
+          "refID": 108
+        },
+        "unquote": {
+          "type": "function"
+        },
+        "repeat": {
+          "type": "function"
+        },
+        "naturalCmp": {
+          "type": "function"
+        },
+        "levenshtein": {
+          "type": "function"
+        },
+        "toBoolean": {
+          "type": "function",
+          "refID": 118
+        },
+        "exports": {
+          "type": "function"
+        },
+        "escapeRegExp": {
+          "type": "function"
+        },
+        "strip": {
+          "ref": 11
+        },
+        "lstrip": {
+          "ref": 61
+        },
+        "rstrip": {
+          "ref": 63
+        },
+        "center": {
+          "ref": 77
+        },
+        "rjust": {
+          "ref": 73
+        },
+        "ljust": {
+          "ref": 75
+        },
+        "contains": {
+          "ref": 31
+        },
+        "q": {
+          "ref": 108
+        },
+        "toBool": {
+          "ref": 118
+        },
+        "camelcase": {
+          "ref": 51
+        },
+        "prototype": {
+          "type": "object",
+          "members": {
+            "value": {
+              "type": "function"
+            },
+            "isBlank": {
+              "type": "function"
+            },
+            "stripTags": {
+              "type": "function"
+            },
+            "capitalize": {
+              "type": "function"
+            },
+            "decapitalize": {
+              "type": "function"
+            },
+            "chop": {
+              "type": "function"
+            },
+            "trim": {
+              "type": "function"
+            },
+            "clean": {
+              "type": "function"
+            },
+            "count": {
+              "type": "function"
+            },
+            "chars": {
+              "type": "function"
+            },
+            "swapCase": {
+              "type": "function"
+            },
+            "escapeHTML": {
+              "type": "function"
+            },
+            "unescapeHTML": {
+              "type": "function"
+            },
+            "splice": {
+              "type": "function"
+            },
+            "insert": {
+              "type": "function"
+            },
+            "replaceAll": {
+              "type": "function"
+            },
+            "include": {
+              "type": "function"
+            },
+            "join": {
+              "type": "function"
+            },
+            "lines": {
+              "type": "function"
+            },
+            "dedent": {
+              "type": "function"
+            },
+            "reverse": {
+              "type": "function"
+            },
+            "startsWith": {
+              "type": "function"
+            },
+            "endsWith": {
+              "type": "function"
+            },
+            "pred": {
+              "type": "function"
+            },
+            "succ": {
+              "type": "function"
+            },
+            "titleize": {
+              "type": "function"
+            },
+            "camelize": {
+              "type": "function"
+            },
+            "underscored": {
+              "type": "function"
+            },
+            "dasherize": {
+              "type": "function"
+            },
+            "classify": {
+              "type": "function"
+            },
+            "humanize": {
+              "type": "function"
+            },
+            "ltrim": {
+              "type": "function"
+            },
+            "rtrim": {
+              "type": "function"
+            },
+            "truncate": {
+              "type": "function"
+            },
+            "prune": {
+              "type": "function"
+            },
+            "words": {
+              "type": "function"
+            },
+            "pad": {
+              "type": "function"
+            },
+            "lpad": {
+              "type": "function"
+            },
+            "rpad": {
+              "type": "function"
+            },
+            "lrpad": {
+              "type": "function"
+            },
+            "sprintf": {
+              "type": "function"
+            },
+            "vsprintf": {
+              "type": "function"
+            },
+            "toNumber": {
+              "type": "function"
+            },
+            "numberFormat": {
+              "type": "function"
+            },
+            "strRight": {
+              "type": "function"
+            },
+            "strRightBack": {
+              "type": "function"
+            },
+            "strLeft": {
+              "type": "function"
+            },
+            "strLeftBack": {
+              "type": "function"
+            },
+            "toSentence": {
+              "type": "function"
+            },
+            "toSentenceSerial": {
+              "type": "function"
+            },
+            "slugify": {
+              "type": "function"
+            },
+            "surround": {
+              "type": "function"
+            },
+            "quote": {
+              "type": "function"
+            },
+            "unquote": {
+              "type": "function"
+            },
+            "repeat": {
+              "type": "function"
+            },
+            "naturalCmp": {
+              "type": "function"
+            },
+            "levenshtein": {
+              "type": "function"
+            },
+            "toBoolean": {
+              "type": "function"
+            },
+            "exports": {
+              "type": "function"
+            },
+            "escapeRegExp": {
+              "type": "function"
+            },
+            "strip": {
+              "type": "function"
+            },
+            "lstrip": {
+              "type": "function"
+            },
+            "rstrip": {
+              "type": "function"
+            },
+            "center": {
+              "type": "function"
+            },
+            "rjust": {
+              "type": "function"
+            },
+            "ljust": {
+              "type": "function"
+            },
+            "contains": {
+              "type": "function"
+            },
+            "q": {
+              "type": "function"
+            },
+            "toBool": {
+              "type": "function"
+            },
+            "camelcase": {
+              "type": "function"
+            },
+            "future": {
+              "type": "function"
+            },
+            "deprecate": {
+              "type": "function"
+            },
+            "tap": {
+              "type": "function"
+            },
+            "toUpperCase": {
+              "type": "function"
+            },
+            "toLowerCase": {
+              "type": "function"
+            },
+            "split": {
+              "type": "function"
+            },
+            "replace": {
+              "type": "function"
+            },
+            "slice": {
+              "type": "function"
+            },
+            "substring": {
+              "type": "function"
+            },
+            "substr": {
+              "type": "function"
+            },
+            "concat": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
   "zimme:iron-router-active": {},
   "natestrauser:connection-banner": {},
   "twbs:bootstrap": {},
@@ -19108,9 +19609,6 @@ var packageMetadata = {
     "chokidar": {
       "type": "object",
       "members": {
-        "isBinaryPath": {
-          "type": "function"
-        },
         "FSWatcher": {
           "type": "function",
           "members": {
@@ -19118,6 +19616,9 @@ var packageMetadata = {
               "type": "object",
               "members": {
                 "add": {
+                  "type": "function"
+                },
+                "unwatch": {
                   "type": "function"
                 },
                 "close": {
@@ -19629,11 +20130,11 @@ var packageMetadata = {
         },
         "mirrorMeteorVersion": {
           "type": "constant",
-          "value": "1.1.0.2_1"
+          "value": "1.1.0.2_3"
         },
         "mirrorMeteorRelease": {
           "type": "constant",
-          "value": "velocity:METEOR@1.1.0.2_1"
+          "value": "velocity:METEOR@1.1.0.2_3"
         },
         "mirrorMeteorToolReleaseName": {
           "type": "constant",
@@ -19641,11 +20142,11 @@ var packageMetadata = {
         },
         "mirrorMeteorToolVersion": {
           "type": "constant",
-          "value": "1.1.3_2"
+          "value": "1.1.3_4"
         },
         "mirrorMeteorToolRelease": {
           "type": "constant",
-          "value": "velocity:meteor-tool@1.1.3_2"
+          "value": "velocity:meteor-tool@1.1.3_4"
         }
       }
     },
@@ -20003,11 +20504,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "c22cb444468d84ec9c0b561b1dbdf639b2729d2e"
+          "value": "586a2fd90375822966740015d59dd566d8acce54"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "798a3b0a7318a91bc08a7c861ceaf3c7c4a93b46"
+          "value": "750968a9c071ae6e09b4df7d4a3c4e5bbb7cdd87"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
