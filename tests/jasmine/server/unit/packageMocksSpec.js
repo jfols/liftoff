@@ -7086,7 +7086,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "d612f84c2457c903cf714329d46df8f9a1040c1e"
+                  "value": "27ed29bc11c0f7ec54eab1d5f18bc23890646852"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -8691,6 +8691,34 @@ var packageMetadata = {
     }
   },
   "coffeescript": {},
+  "npm-bcrypt": {
+    "NpmModuleBcrypt": {
+      "type": "object",
+      "members": {
+        "genSaltSync": {
+          "type": "function"
+        },
+        "genSalt": {
+          "type": "function"
+        },
+        "hashSync": {
+          "type": "function"
+        },
+        "hash": {
+          "type": "function"
+        },
+        "compareSync": {
+          "type": "function"
+        },
+        "compare": {
+          "type": "function"
+        },
+        "getRounds": {
+          "type": "function"
+        }
+      }
+    }
+  },
   "accounts-base": {
     "Accounts": {
       "type": "object",
@@ -8856,6 +8884,1464 @@ var packageMetadata = {
       "type": "undefined"
     }
   },
+  "sha": {
+    "SHA256": {
+      "type": "function"
+    }
+  },
+  "srp": {
+    "SRP": {
+      "type": "object",
+      "members": {
+        "generateVerifier": {
+          "type": "function"
+        },
+        "matchVerifier": {
+          "type": "object",
+          "members": {
+            "identity": {
+              "type": "function",
+              "refID": 4
+            },
+            "salt": {
+              "ref": 4
+            },
+            "verifier": {
+              "ref": 4
+            }
+          }
+        }
+      }
+    }
+  },
+  "email": {
+    "Email": {
+      "type": "object",
+      "members": {
+        "send": {
+          "type": "function"
+        }
+      }
+    },
+    "EmailTest": {
+      "type": "object",
+      "members": {
+        "overrideOutputStream": {
+          "type": "function"
+        },
+        "restoreOutputStream": {
+          "type": "function"
+        },
+        "hookSend": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "accounts-password": {},
+  "underscorestring:underscore.string": {
+    "s": {
+      "type": "function",
+      "members": {
+        "VERSION": {
+          "type": "constant",
+          "value": "3.0.3"
+        },
+        "isBlank": {
+          "type": "function"
+        },
+        "stripTags": {
+          "type": "function"
+        },
+        "capitalize": {
+          "type": "function"
+        },
+        "decapitalize": {
+          "type": "function"
+        },
+        "chop": {
+          "type": "function"
+        },
+        "trim": {
+          "type": "function",
+          "refID": 11
+        },
+        "clean": {
+          "type": "function"
+        },
+        "count": {
+          "type": "function"
+        },
+        "chars": {
+          "type": "function"
+        },
+        "swapCase": {
+          "type": "function"
+        },
+        "escapeHTML": {
+          "type": "function"
+        },
+        "unescapeHTML": {
+          "type": "function"
+        },
+        "splice": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "replaceAll": {
+          "type": "function"
+        },
+        "include": {
+          "type": "function",
+          "refID": 31
+        },
+        "join": {
+          "type": "function"
+        },
+        "lines": {
+          "type": "function"
+        },
+        "dedent": {
+          "type": "function"
+        },
+        "reverse": {
+          "type": "function"
+        },
+        "startsWith": {
+          "type": "function"
+        },
+        "endsWith": {
+          "type": "function"
+        },
+        "pred": {
+          "type": "function"
+        },
+        "succ": {
+          "type": "function"
+        },
+        "titleize": {
+          "type": "function"
+        },
+        "camelize": {
+          "type": "function",
+          "refID": 51
+        },
+        "underscored": {
+          "type": "function"
+        },
+        "dasherize": {
+          "type": "function"
+        },
+        "classify": {
+          "type": "function"
+        },
+        "humanize": {
+          "type": "function"
+        },
+        "ltrim": {
+          "type": "function",
+          "refID": 61
+        },
+        "rtrim": {
+          "type": "function",
+          "refID": 63
+        },
+        "truncate": {
+          "type": "function"
+        },
+        "prune": {
+          "type": "function"
+        },
+        "words": {
+          "type": "function"
+        },
+        "pad": {
+          "type": "function"
+        },
+        "lpad": {
+          "type": "function",
+          "refID": 73
+        },
+        "rpad": {
+          "type": "function",
+          "refID": 75
+        },
+        "lrpad": {
+          "type": "function",
+          "refID": 77
+        },
+        "sprintf": {
+          "type": "function",
+          "members": {
+            "format": {
+              "type": "function"
+            },
+            "cache": {
+              "type": "object"
+            },
+            "parse": {
+              "type": "function"
+            }
+          }
+        },
+        "vsprintf": {
+          "type": "function"
+        },
+        "toNumber": {
+          "type": "function"
+        },
+        "numberFormat": {
+          "type": "function"
+        },
+        "strRight": {
+          "type": "function"
+        },
+        "strRightBack": {
+          "type": "function"
+        },
+        "strLeft": {
+          "type": "function"
+        },
+        "strLeftBack": {
+          "type": "function"
+        },
+        "toSentence": {
+          "type": "function"
+        },
+        "toSentenceSerial": {
+          "type": "function"
+        },
+        "slugify": {
+          "type": "function"
+        },
+        "surround": {
+          "type": "function"
+        },
+        "quote": {
+          "type": "function",
+          "refID": 108
+        },
+        "unquote": {
+          "type": "function"
+        },
+        "repeat": {
+          "type": "function"
+        },
+        "naturalCmp": {
+          "type": "function"
+        },
+        "levenshtein": {
+          "type": "function"
+        },
+        "toBoolean": {
+          "type": "function",
+          "refID": 118
+        },
+        "exports": {
+          "type": "function"
+        },
+        "escapeRegExp": {
+          "type": "function"
+        },
+        "strip": {
+          "ref": 11
+        },
+        "lstrip": {
+          "ref": 61
+        },
+        "rstrip": {
+          "ref": 63
+        },
+        "center": {
+          "ref": 77
+        },
+        "rjust": {
+          "ref": 73
+        },
+        "ljust": {
+          "ref": 75
+        },
+        "contains": {
+          "ref": 31
+        },
+        "q": {
+          "ref": 108
+        },
+        "toBool": {
+          "ref": 118
+        },
+        "camelcase": {
+          "ref": 51
+        },
+        "prototype": {
+          "type": "object",
+          "members": {
+            "value": {
+              "type": "function"
+            },
+            "isBlank": {
+              "type": "function"
+            },
+            "stripTags": {
+              "type": "function"
+            },
+            "capitalize": {
+              "type": "function"
+            },
+            "decapitalize": {
+              "type": "function"
+            },
+            "chop": {
+              "type": "function"
+            },
+            "trim": {
+              "type": "function"
+            },
+            "clean": {
+              "type": "function"
+            },
+            "count": {
+              "type": "function"
+            },
+            "chars": {
+              "type": "function"
+            },
+            "swapCase": {
+              "type": "function"
+            },
+            "escapeHTML": {
+              "type": "function"
+            },
+            "unescapeHTML": {
+              "type": "function"
+            },
+            "splice": {
+              "type": "function"
+            },
+            "insert": {
+              "type": "function"
+            },
+            "replaceAll": {
+              "type": "function"
+            },
+            "include": {
+              "type": "function"
+            },
+            "join": {
+              "type": "function"
+            },
+            "lines": {
+              "type": "function"
+            },
+            "dedent": {
+              "type": "function"
+            },
+            "reverse": {
+              "type": "function"
+            },
+            "startsWith": {
+              "type": "function"
+            },
+            "endsWith": {
+              "type": "function"
+            },
+            "pred": {
+              "type": "function"
+            },
+            "succ": {
+              "type": "function"
+            },
+            "titleize": {
+              "type": "function"
+            },
+            "camelize": {
+              "type": "function"
+            },
+            "underscored": {
+              "type": "function"
+            },
+            "dasherize": {
+              "type": "function"
+            },
+            "classify": {
+              "type": "function"
+            },
+            "humanize": {
+              "type": "function"
+            },
+            "ltrim": {
+              "type": "function"
+            },
+            "rtrim": {
+              "type": "function"
+            },
+            "truncate": {
+              "type": "function"
+            },
+            "prune": {
+              "type": "function"
+            },
+            "words": {
+              "type": "function"
+            },
+            "pad": {
+              "type": "function"
+            },
+            "lpad": {
+              "type": "function"
+            },
+            "rpad": {
+              "type": "function"
+            },
+            "lrpad": {
+              "type": "function"
+            },
+            "sprintf": {
+              "type": "function"
+            },
+            "vsprintf": {
+              "type": "function"
+            },
+            "toNumber": {
+              "type": "function"
+            },
+            "numberFormat": {
+              "type": "function"
+            },
+            "strRight": {
+              "type": "function"
+            },
+            "strRightBack": {
+              "type": "function"
+            },
+            "strLeft": {
+              "type": "function"
+            },
+            "strLeftBack": {
+              "type": "function"
+            },
+            "toSentence": {
+              "type": "function"
+            },
+            "toSentenceSerial": {
+              "type": "function"
+            },
+            "slugify": {
+              "type": "function"
+            },
+            "surround": {
+              "type": "function"
+            },
+            "quote": {
+              "type": "function"
+            },
+            "unquote": {
+              "type": "function"
+            },
+            "repeat": {
+              "type": "function"
+            },
+            "naturalCmp": {
+              "type": "function"
+            },
+            "levenshtein": {
+              "type": "function"
+            },
+            "toBoolean": {
+              "type": "function"
+            },
+            "exports": {
+              "type": "function"
+            },
+            "escapeRegExp": {
+              "type": "function"
+            },
+            "strip": {
+              "type": "function"
+            },
+            "lstrip": {
+              "type": "function"
+            },
+            "rstrip": {
+              "type": "function"
+            },
+            "center": {
+              "type": "function"
+            },
+            "rjust": {
+              "type": "function"
+            },
+            "ljust": {
+              "type": "function"
+            },
+            "contains": {
+              "type": "function"
+            },
+            "q": {
+              "type": "function"
+            },
+            "toBool": {
+              "type": "function"
+            },
+            "camelcase": {
+              "type": "function"
+            },
+            "future": {
+              "type": "function"
+            },
+            "deprecate": {
+              "type": "function"
+            },
+            "tap": {
+              "type": "function"
+            },
+            "toUpperCase": {
+              "type": "function"
+            },
+            "toLowerCase": {
+              "type": "function"
+            },
+            "split": {
+              "type": "function"
+            },
+            "replace": {
+              "type": "function"
+            },
+            "slice": {
+              "type": "function"
+            },
+            "substring": {
+              "type": "function"
+            },
+            "substr": {
+              "type": "function"
+            },
+            "concat": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
+  "zimme:iron-router-active": {},
+  "natestrauser:connection-banner": {},
+  "practicalmeteor:loglevel": {
+    "loglevel": {
+      "type": "object",
+      "members": {
+        "createLogger": {
+          "type": "function"
+        },
+        "createPackageLogger": {
+          "type": "function"
+        },
+        "createAppLogger": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "velocity:chokidar": {
+    "chokidar": {
+      "type": "object",
+      "members": {
+        "FSWatcher": {
+          "type": "function",
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "function"
+                },
+                "unwatch": {
+                  "type": "function"
+                },
+                "close": {
+                  "type": "function"
+                },
+                "setMaxListeners": {
+                  "type": "function"
+                },
+                "emit": {
+                  "type": "function"
+                },
+                "addListener": {
+                  "type": "function",
+                  "refID": 13
+                },
+                "on": {
+                  "ref": 13
+                },
+                "once": {
+                  "type": "function"
+                },
+                "removeListener": {
+                  "type": "function"
+                },
+                "removeAllListeners": {
+                  "type": "function"
+                },
+                "listeners": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "watch": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "velocity:meteor-internals": {
+    "VelocityMeteorInternals": {
+      "type": "object",
+      "members": {
+        "parseStack": {
+          "type": "object",
+          "members": {
+            "markBottom": {
+              "type": "function"
+            }
+          }
+        },
+        "buildmessage": {
+          "type": "object",
+          "members": {
+            "markBoundary": {
+              "type": "function"
+            }
+          }
+        },
+        "files": {
+          "type": "object",
+          "members": {
+            "cwd": {
+              "type": "function"
+            },
+            "findAppDir": {
+              "type": "function"
+            },
+            "findPackageDir": {
+              "type": "function"
+            },
+            "statOrNull": {
+              "type": "function"
+            },
+            "runJavaScript": {
+              "type": "function"
+            },
+            "FancySyntaxError": {
+              "type": "function"
+            },
+            "writeFile": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "writeFile"
+                }
+              }
+            },
+            "appendFile": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "appendFile"
+                }
+              }
+            },
+            "readFile": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "readFile"
+                }
+              }
+            },
+            "stat": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "stat"
+                }
+              }
+            },
+            "lstat": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "lstat"
+                }
+              }
+            },
+            "exists": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "exists"
+                }
+              }
+            },
+            "rename": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "rename"
+                }
+              }
+            },
+            "realpath": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "realpath"
+                }
+              }
+            },
+            "readdir": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "readdir"
+                }
+              }
+            },
+            "rmdir": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "rmdir"
+                }
+              }
+            },
+            "mkdir": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "mkdir"
+                }
+              }
+            },
+            "unlink": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "unlink"
+                }
+              }
+            },
+            "chmod": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "chmod"
+                }
+              }
+            },
+            "open": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "open"
+                }
+              }
+            },
+            "read": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "read"
+                }
+              }
+            },
+            "write": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "write"
+                }
+              }
+            },
+            "close": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "close"
+                }
+              }
+            },
+            "symlink": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "symlink"
+                }
+              }
+            },
+            "readlink": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "readlink"
+                }
+              }
+            },
+            "createReadStream": {
+              "type": "function"
+            },
+            "createWriteStream": {
+              "type": "function"
+            },
+            "watchFile": {
+              "type": "function"
+            },
+            "unwatchFile": {
+              "type": "function"
+            },
+            "pathJoin": {
+              "type": "function"
+            },
+            "pathNormalize": {
+              "type": "function"
+            },
+            "pathRelative": {
+              "type": "function"
+            },
+            "pathResolve": {
+              "type": "function"
+            },
+            "pathDirname": {
+              "type": "function"
+            },
+            "pathBasename": {
+              "type": "function"
+            },
+            "pathExtname": {
+              "type": "function"
+            },
+            "pathSep": {
+              "type": "constant",
+              "value": "/"
+            },
+            "pathDelimiter": {
+              "type": "constant",
+              "value": ":"
+            },
+            "pathOsDelimiter": {
+              "type": "constant",
+              "value": ":"
+            },
+            "convertToStandardPath": {
+              "type": "function"
+            },
+            "convertToOSPath": {
+              "type": "function"
+            },
+            "convertToWindowsPath": {
+              "type": "function"
+            },
+            "convertToPosixPath": {
+              "type": "function"
+            },
+            "convertToStandardLineEndings": {
+              "type": "function"
+            },
+            "convertToOSLineEndings": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sanjo:long-running-child-process": {
+    "LongRunningChildProcess": {
+      "type": "function",
+      "members": {
+        "prototype": {
+          "type": "object",
+          "members": {
+            "taskName": {
+              "type": "null",
+              "value": null
+            },
+            "child": {
+              "type": "null",
+              "value": null
+            },
+            "pid": {
+              "type": "null",
+              "value": null
+            },
+            "getTaskName": {
+              "type": "function"
+            },
+            "getChild": {
+              "type": "function"
+            },
+            "getPid": {
+              "type": "function"
+            },
+            "isDead": {
+              "type": "function"
+            },
+            "isRunning": {
+              "type": "function"
+            },
+            "readPid": {
+              "type": "function"
+            },
+            "spawn": {
+              "type": "function"
+            },
+            "kill": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sanjo:meteor-version": {
+    "MeteorVersion": {
+      "type": "object",
+      "members": {
+        "getSemanticVersion": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "package-version-parser": {
+    "PackageVersion": {
+      "type": "function",
+      "members": {
+        "parse": {
+          "type": "function"
+        },
+        "versionMagnitude": {
+          "type": "function"
+        },
+        "lessThan": {
+          "type": "function"
+        },
+        "majorVersion": {
+          "type": "function"
+        },
+        "compare": {
+          "type": "function"
+        },
+        "getValidServerVersion": {
+          "type": "function"
+        },
+        "VersionConstraint": {
+          "type": "function"
+        },
+        "parseVersionConstraint": {
+          "type": "function"
+        },
+        "PackageConstraint": {
+          "type": "function",
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "toString": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "parsePackageConstraint": {
+          "type": "function"
+        },
+        "validatePackageName": {
+          "type": "function"
+        },
+        "invalidFirstFormatConstraint": {
+          "type": "function"
+        },
+        "removeBuildID": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "sanjo:meteor-files-helpers": {
+    "MeteorFilesHelpers": {
+      "type": "object",
+      "members": {
+        "getAppPath": {
+          "type": "function"
+        },
+        "getMeteorToolPath": {
+          "type": "function"
+        },
+        "getMeteorInstallationPath": {
+          "type": "function"
+        },
+        "getNodeModulePath": {
+          "type": "function"
+        },
+        "getPackageVersions": {
+          "type": "function"
+        },
+        "getPackageVersion": {
+          "type": "function"
+        },
+        "isPackageInstalled": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "velocity:core": {
+    "Velocity": {
+      "type": "object",
+      "members": {
+        "reusableMirrors": {
+          "type": "array"
+        },
+        "startup": {
+          "type": "function"
+        },
+        "getAppPath": {
+          "type": "function"
+        },
+        "getTestsPath": {
+          "type": "function"
+        },
+        "getPackagesPath": {
+          "type": "function"
+        },
+        "getPackagePath": {
+          "type": "function"
+        },
+        "postProcessors": {
+          "type": "array"
+        },
+        "addPostProcessor": {
+          "type": "function"
+        },
+        "getReportGithubIssueMessage": {
+          "type": "function"
+        },
+        "registerTestingFramework": {
+          "type": "function"
+        },
+        "unregisterTestingFramework": {
+          "type": "function"
+        },
+        "onTest": {
+          "type": "function"
+        },
+        "setOption": {
+          "type": "function"
+        },
+        "setOptions": {
+          "type": "function"
+        },
+        "getOption": {
+          "type": "function"
+        },
+        "mirrorMeteorReleaseName": {
+          "type": "constant",
+          "value": "velocity:METEOR"
+        },
+        "mirrorMeteorVersion": {
+          "type": "constant",
+          "value": "1.1.0.2_3"
+        },
+        "mirrorMeteorRelease": {
+          "type": "constant",
+          "value": "velocity:METEOR@1.1.0.2_3"
+        },
+        "mirrorMeteorToolReleaseName": {
+          "type": "constant",
+          "value": "velocity:meteor-tool"
+        },
+        "mirrorMeteorToolVersion": {
+          "type": "constant",
+          "value": "1.1.3_4"
+        },
+        "mirrorMeteorToolRelease": {
+          "type": "constant",
+          "value": "velocity:meteor-tool@1.1.3_4"
+        }
+      }
+    },
+    "VelocityTestFiles": {
+      "type": "object",
+      "members": {
+        "find": {
+          "type": "function"
+        },
+        "findOne": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "update": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        }
+      }
+    },
+    "VelocityFixtureFiles": {
+      "type": "object",
+      "members": {
+        "find": {
+          "type": "function"
+        },
+        "findOne": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "update": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        }
+      }
+    },
+    "VelocityTestReports": {
+      "type": "object",
+      "members": {
+        "find": {
+          "type": "function"
+        },
+        "findOne": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "update": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        }
+      }
+    },
+    "VelocityAggregateReports": {
+      "type": "object",
+      "members": {
+        "find": {
+          "type": "function"
+        },
+        "findOne": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "update": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        }
+      }
+    },
+    "VelocityLogs": {
+      "type": "object",
+      "members": {
+        "find": {
+          "type": "function"
+        },
+        "findOne": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "update": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        }
+      }
+    },
+    "VelocityMirrors": {
+      "type": "object",
+      "members": {
+        "find": {
+          "type": "function"
+        },
+        "findOne": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "update": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        }
+      }
+    },
+    "VelocityOptions": {
+      "type": "object",
+      "members": {
+        "find": {
+          "type": "function"
+        },
+        "findOne": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "update": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "velocity:shim": {},
+  "velocity:meteor-stubs": {
+    "MeteorStubs": {
+      "type": "object",
+      "members": {
+        "install": {
+          "type": "function"
+        },
+        "uninstall": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "sanjo:karma": {
+    "Karma": {
+      "type": "object",
+      "members": {
+        "start": {
+          "type": "function"
+        },
+        "setConfig": {
+          "type": "function"
+        }
+      }
+    },
+    "KarmaInternals": {
+      "type": "object",
+      "members": {
+        "karmaChilds": {
+          "type": "object"
+        },
+        "getKarmaChild": {
+          "type": "function"
+        },
+        "setKarmaChild": {
+          "type": "function"
+        },
+        "startKarmaServer": {
+          "type": "function"
+        },
+        "writeKarmaConfig": {
+          "type": "function"
+        },
+        "generateKarmaConfig": {
+          "type": "function"
+        },
+        "readKarmaConfig": {
+          "type": "function"
+        },
+        "getConfigPath": {
+          "type": "function"
+        },
+        "getKarmaPath": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "sanjo:jasmine": {
+    "Jasmine": {
+      "type": "object",
+      "members": {
+        "onTest": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "velocity:html-reporter": {},
+  "velocity:console-reporter": {
+    "ConsoleReporter": {
+      "type": "function",
+      "members": {
+        "prototype": {
+          "type": "object",
+          "members": {
+            "reportSummary": {
+              "type": "function"
+            },
+            "reportPassed": {
+              "type": "function"
+            },
+            "reportFailed": {
+              "type": "function"
+            },
+            "reportOneFailed": {
+              "type": "function"
+            },
+            "totalTime": {
+              "type": "function"
+            },
+            "formatTime": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
+  "materialize:materialize": {},
   "url": {
     "URL": {
       "type": "object"
@@ -19014,1490 +20500,7 @@ var packageMetadata = {
       }
     }
   },
-  "useraccounts:bootstrap": {},
-  "npm-bcrypt": {
-    "NpmModuleBcrypt": {
-      "type": "object",
-      "members": {
-        "genSaltSync": {
-          "type": "function"
-        },
-        "genSalt": {
-          "type": "function"
-        },
-        "hashSync": {
-          "type": "function"
-        },
-        "hash": {
-          "type": "function"
-        },
-        "compareSync": {
-          "type": "function"
-        },
-        "compare": {
-          "type": "function"
-        },
-        "getRounds": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "sha": {
-    "SHA256": {
-      "type": "function"
-    }
-  },
-  "srp": {
-    "SRP": {
-      "type": "object",
-      "members": {
-        "generateVerifier": {
-          "type": "function"
-        },
-        "matchVerifier": {
-          "type": "object",
-          "members": {
-            "identity": {
-              "type": "function",
-              "refID": 4
-            },
-            "salt": {
-              "ref": 4
-            },
-            "verifier": {
-              "ref": 4
-            }
-          }
-        }
-      }
-    }
-  },
-  "email": {
-    "Email": {
-      "type": "object",
-      "members": {
-        "send": {
-          "type": "function"
-        }
-      }
-    },
-    "EmailTest": {
-      "type": "object",
-      "members": {
-        "overrideOutputStream": {
-          "type": "function"
-        },
-        "restoreOutputStream": {
-          "type": "function"
-        },
-        "hookSend": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "accounts-password": {},
-  "underscorestring:underscore.string": {
-    "s": {
-      "type": "function",
-      "members": {
-        "VERSION": {
-          "type": "constant",
-          "value": "3.0.3"
-        },
-        "isBlank": {
-          "type": "function"
-        },
-        "stripTags": {
-          "type": "function"
-        },
-        "capitalize": {
-          "type": "function"
-        },
-        "decapitalize": {
-          "type": "function"
-        },
-        "chop": {
-          "type": "function"
-        },
-        "trim": {
-          "type": "function",
-          "refID": 11
-        },
-        "clean": {
-          "type": "function"
-        },
-        "count": {
-          "type": "function"
-        },
-        "chars": {
-          "type": "function"
-        },
-        "swapCase": {
-          "type": "function"
-        },
-        "escapeHTML": {
-          "type": "function"
-        },
-        "unescapeHTML": {
-          "type": "function"
-        },
-        "splice": {
-          "type": "function"
-        },
-        "insert": {
-          "type": "function"
-        },
-        "replaceAll": {
-          "type": "function"
-        },
-        "include": {
-          "type": "function",
-          "refID": 31
-        },
-        "join": {
-          "type": "function"
-        },
-        "lines": {
-          "type": "function"
-        },
-        "dedent": {
-          "type": "function"
-        },
-        "reverse": {
-          "type": "function"
-        },
-        "startsWith": {
-          "type": "function"
-        },
-        "endsWith": {
-          "type": "function"
-        },
-        "pred": {
-          "type": "function"
-        },
-        "succ": {
-          "type": "function"
-        },
-        "titleize": {
-          "type": "function"
-        },
-        "camelize": {
-          "type": "function",
-          "refID": 51
-        },
-        "underscored": {
-          "type": "function"
-        },
-        "dasherize": {
-          "type": "function"
-        },
-        "classify": {
-          "type": "function"
-        },
-        "humanize": {
-          "type": "function"
-        },
-        "ltrim": {
-          "type": "function",
-          "refID": 61
-        },
-        "rtrim": {
-          "type": "function",
-          "refID": 63
-        },
-        "truncate": {
-          "type": "function"
-        },
-        "prune": {
-          "type": "function"
-        },
-        "words": {
-          "type": "function"
-        },
-        "pad": {
-          "type": "function"
-        },
-        "lpad": {
-          "type": "function",
-          "refID": 73
-        },
-        "rpad": {
-          "type": "function",
-          "refID": 75
-        },
-        "lrpad": {
-          "type": "function",
-          "refID": 77
-        },
-        "sprintf": {
-          "type": "function",
-          "members": {
-            "format": {
-              "type": "function"
-            },
-            "cache": {
-              "type": "object"
-            },
-            "parse": {
-              "type": "function"
-            }
-          }
-        },
-        "vsprintf": {
-          "type": "function"
-        },
-        "toNumber": {
-          "type": "function"
-        },
-        "numberFormat": {
-          "type": "function"
-        },
-        "strRight": {
-          "type": "function"
-        },
-        "strRightBack": {
-          "type": "function"
-        },
-        "strLeft": {
-          "type": "function"
-        },
-        "strLeftBack": {
-          "type": "function"
-        },
-        "toSentence": {
-          "type": "function"
-        },
-        "toSentenceSerial": {
-          "type": "function"
-        },
-        "slugify": {
-          "type": "function"
-        },
-        "surround": {
-          "type": "function"
-        },
-        "quote": {
-          "type": "function",
-          "refID": 108
-        },
-        "unquote": {
-          "type": "function"
-        },
-        "repeat": {
-          "type": "function"
-        },
-        "naturalCmp": {
-          "type": "function"
-        },
-        "levenshtein": {
-          "type": "function"
-        },
-        "toBoolean": {
-          "type": "function",
-          "refID": 118
-        },
-        "exports": {
-          "type": "function"
-        },
-        "escapeRegExp": {
-          "type": "function"
-        },
-        "strip": {
-          "ref": 11
-        },
-        "lstrip": {
-          "ref": 61
-        },
-        "rstrip": {
-          "ref": 63
-        },
-        "center": {
-          "ref": 77
-        },
-        "rjust": {
-          "ref": 73
-        },
-        "ljust": {
-          "ref": 75
-        },
-        "contains": {
-          "ref": 31
-        },
-        "q": {
-          "ref": 108
-        },
-        "toBool": {
-          "ref": 118
-        },
-        "camelcase": {
-          "ref": 51
-        },
-        "prototype": {
-          "type": "object",
-          "members": {
-            "value": {
-              "type": "function"
-            },
-            "isBlank": {
-              "type": "function"
-            },
-            "stripTags": {
-              "type": "function"
-            },
-            "capitalize": {
-              "type": "function"
-            },
-            "decapitalize": {
-              "type": "function"
-            },
-            "chop": {
-              "type": "function"
-            },
-            "trim": {
-              "type": "function"
-            },
-            "clean": {
-              "type": "function"
-            },
-            "count": {
-              "type": "function"
-            },
-            "chars": {
-              "type": "function"
-            },
-            "swapCase": {
-              "type": "function"
-            },
-            "escapeHTML": {
-              "type": "function"
-            },
-            "unescapeHTML": {
-              "type": "function"
-            },
-            "splice": {
-              "type": "function"
-            },
-            "insert": {
-              "type": "function"
-            },
-            "replaceAll": {
-              "type": "function"
-            },
-            "include": {
-              "type": "function"
-            },
-            "join": {
-              "type": "function"
-            },
-            "lines": {
-              "type": "function"
-            },
-            "dedent": {
-              "type": "function"
-            },
-            "reverse": {
-              "type": "function"
-            },
-            "startsWith": {
-              "type": "function"
-            },
-            "endsWith": {
-              "type": "function"
-            },
-            "pred": {
-              "type": "function"
-            },
-            "succ": {
-              "type": "function"
-            },
-            "titleize": {
-              "type": "function"
-            },
-            "camelize": {
-              "type": "function"
-            },
-            "underscored": {
-              "type": "function"
-            },
-            "dasherize": {
-              "type": "function"
-            },
-            "classify": {
-              "type": "function"
-            },
-            "humanize": {
-              "type": "function"
-            },
-            "ltrim": {
-              "type": "function"
-            },
-            "rtrim": {
-              "type": "function"
-            },
-            "truncate": {
-              "type": "function"
-            },
-            "prune": {
-              "type": "function"
-            },
-            "words": {
-              "type": "function"
-            },
-            "pad": {
-              "type": "function"
-            },
-            "lpad": {
-              "type": "function"
-            },
-            "rpad": {
-              "type": "function"
-            },
-            "lrpad": {
-              "type": "function"
-            },
-            "sprintf": {
-              "type": "function"
-            },
-            "vsprintf": {
-              "type": "function"
-            },
-            "toNumber": {
-              "type": "function"
-            },
-            "numberFormat": {
-              "type": "function"
-            },
-            "strRight": {
-              "type": "function"
-            },
-            "strRightBack": {
-              "type": "function"
-            },
-            "strLeft": {
-              "type": "function"
-            },
-            "strLeftBack": {
-              "type": "function"
-            },
-            "toSentence": {
-              "type": "function"
-            },
-            "toSentenceSerial": {
-              "type": "function"
-            },
-            "slugify": {
-              "type": "function"
-            },
-            "surround": {
-              "type": "function"
-            },
-            "quote": {
-              "type": "function"
-            },
-            "unquote": {
-              "type": "function"
-            },
-            "repeat": {
-              "type": "function"
-            },
-            "naturalCmp": {
-              "type": "function"
-            },
-            "levenshtein": {
-              "type": "function"
-            },
-            "toBoolean": {
-              "type": "function"
-            },
-            "exports": {
-              "type": "function"
-            },
-            "escapeRegExp": {
-              "type": "function"
-            },
-            "strip": {
-              "type": "function"
-            },
-            "lstrip": {
-              "type": "function"
-            },
-            "rstrip": {
-              "type": "function"
-            },
-            "center": {
-              "type": "function"
-            },
-            "rjust": {
-              "type": "function"
-            },
-            "ljust": {
-              "type": "function"
-            },
-            "contains": {
-              "type": "function"
-            },
-            "q": {
-              "type": "function"
-            },
-            "toBool": {
-              "type": "function"
-            },
-            "camelcase": {
-              "type": "function"
-            },
-            "future": {
-              "type": "function"
-            },
-            "deprecate": {
-              "type": "function"
-            },
-            "tap": {
-              "type": "function"
-            },
-            "toUpperCase": {
-              "type": "function"
-            },
-            "toLowerCase": {
-              "type": "function"
-            },
-            "split": {
-              "type": "function"
-            },
-            "replace": {
-              "type": "function"
-            },
-            "slice": {
-              "type": "function"
-            },
-            "substring": {
-              "type": "function"
-            },
-            "substr": {
-              "type": "function"
-            },
-            "concat": {
-              "type": "function"
-            }
-          }
-        }
-      }
-    }
-  },
-  "zimme:iron-router-active": {},
-  "natestrauser:connection-banner": {},
-  "twbs:bootstrap": {},
-  "fezvrasta:bootstrap-material-design": {},
-  "fortawesome:fontawesome": {},
-  "practicalmeteor:loglevel": {
-    "loglevel": {
-      "type": "object",
-      "members": {
-        "createLogger": {
-          "type": "function"
-        },
-        "createPackageLogger": {
-          "type": "function"
-        },
-        "createAppLogger": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "velocity:chokidar": {
-    "chokidar": {
-      "type": "object",
-      "members": {
-        "FSWatcher": {
-          "type": "function",
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "add": {
-                  "type": "function"
-                },
-                "unwatch": {
-                  "type": "function"
-                },
-                "close": {
-                  "type": "function"
-                },
-                "setMaxListeners": {
-                  "type": "function"
-                },
-                "emit": {
-                  "type": "function"
-                },
-                "addListener": {
-                  "type": "function",
-                  "refID": 13
-                },
-                "on": {
-                  "ref": 13
-                },
-                "once": {
-                  "type": "function"
-                },
-                "removeListener": {
-                  "type": "function"
-                },
-                "removeAllListeners": {
-                  "type": "function"
-                },
-                "listeners": {
-                  "type": "function"
-                }
-              }
-            }
-          }
-        },
-        "watch": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "velocity:meteor-internals": {
-    "VelocityMeteorInternals": {
-      "type": "object",
-      "members": {
-        "parseStack": {
-          "type": "object",
-          "members": {
-            "markBottom": {
-              "type": "function"
-            }
-          }
-        },
-        "buildmessage": {
-          "type": "object",
-          "members": {
-            "markBoundary": {
-              "type": "function"
-            }
-          }
-        },
-        "files": {
-          "type": "object",
-          "members": {
-            "cwd": {
-              "type": "function"
-            },
-            "findAppDir": {
-              "type": "function"
-            },
-            "findPackageDir": {
-              "type": "function"
-            },
-            "statOrNull": {
-              "type": "function"
-            },
-            "runJavaScript": {
-              "type": "function"
-            },
-            "FancySyntaxError": {
-              "type": "function"
-            },
-            "writeFile": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "writeFile"
-                }
-              }
-            },
-            "appendFile": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "appendFile"
-                }
-              }
-            },
-            "readFile": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "readFile"
-                }
-              }
-            },
-            "stat": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "stat"
-                }
-              }
-            },
-            "lstat": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "lstat"
-                }
-              }
-            },
-            "exists": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "exists"
-                }
-              }
-            },
-            "rename": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "rename"
-                }
-              }
-            },
-            "realpath": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "realpath"
-                }
-              }
-            },
-            "readdir": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "readdir"
-                }
-              }
-            },
-            "rmdir": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "rmdir"
-                }
-              }
-            },
-            "mkdir": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "mkdir"
-                }
-              }
-            },
-            "unlink": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "unlink"
-                }
-              }
-            },
-            "chmod": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "chmod"
-                }
-              }
-            },
-            "open": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "open"
-                }
-              }
-            },
-            "read": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "read"
-                }
-              }
-            },
-            "write": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "write"
-                }
-              }
-            },
-            "close": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "close"
-                }
-              }
-            },
-            "symlink": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "symlink"
-                }
-              }
-            },
-            "readlink": {
-              "type": "function",
-              "members": {
-                "displayName": {
-                  "type": "constant",
-                  "value": "readlink"
-                }
-              }
-            },
-            "createReadStream": {
-              "type": "function"
-            },
-            "createWriteStream": {
-              "type": "function"
-            },
-            "watchFile": {
-              "type": "function"
-            },
-            "unwatchFile": {
-              "type": "function"
-            },
-            "pathJoin": {
-              "type": "function"
-            },
-            "pathNormalize": {
-              "type": "function"
-            },
-            "pathRelative": {
-              "type": "function"
-            },
-            "pathResolve": {
-              "type": "function"
-            },
-            "pathDirname": {
-              "type": "function"
-            },
-            "pathBasename": {
-              "type": "function"
-            },
-            "pathExtname": {
-              "type": "function"
-            },
-            "pathSep": {
-              "type": "constant",
-              "value": "/"
-            },
-            "pathDelimiter": {
-              "type": "constant",
-              "value": ":"
-            },
-            "pathOsDelimiter": {
-              "type": "constant",
-              "value": ":"
-            },
-            "convertToStandardPath": {
-              "type": "function"
-            },
-            "convertToOSPath": {
-              "type": "function"
-            },
-            "convertToWindowsPath": {
-              "type": "function"
-            },
-            "convertToPosixPath": {
-              "type": "function"
-            },
-            "convertToStandardLineEndings": {
-              "type": "function"
-            },
-            "convertToOSLineEndings": {
-              "type": "function"
-            }
-          }
-        }
-      }
-    }
-  },
-  "sanjo:long-running-child-process": {
-    "LongRunningChildProcess": {
-      "type": "function",
-      "members": {
-        "prototype": {
-          "type": "object",
-          "members": {
-            "taskName": {
-              "type": "null",
-              "value": null
-            },
-            "child": {
-              "type": "null",
-              "value": null
-            },
-            "pid": {
-              "type": "null",
-              "value": null
-            },
-            "getTaskName": {
-              "type": "function"
-            },
-            "getChild": {
-              "type": "function"
-            },
-            "getPid": {
-              "type": "function"
-            },
-            "isDead": {
-              "type": "function"
-            },
-            "isRunning": {
-              "type": "function"
-            },
-            "readPid": {
-              "type": "function"
-            },
-            "spawn": {
-              "type": "function"
-            },
-            "kill": {
-              "type": "function"
-            }
-          }
-        }
-      }
-    }
-  },
-  "sanjo:meteor-version": {
-    "MeteorVersion": {
-      "type": "object",
-      "members": {
-        "getSemanticVersion": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "package-version-parser": {
-    "PackageVersion": {
-      "type": "function",
-      "members": {
-        "parse": {
-          "type": "function"
-        },
-        "versionMagnitude": {
-          "type": "function"
-        },
-        "lessThan": {
-          "type": "function"
-        },
-        "majorVersion": {
-          "type": "function"
-        },
-        "compare": {
-          "type": "function"
-        },
-        "getValidServerVersion": {
-          "type": "function"
-        },
-        "VersionConstraint": {
-          "type": "function"
-        },
-        "parseVersionConstraint": {
-          "type": "function"
-        },
-        "PackageConstraint": {
-          "type": "function",
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "toString": {
-                  "type": "function"
-                }
-              }
-            }
-          }
-        },
-        "parsePackageConstraint": {
-          "type": "function"
-        },
-        "validatePackageName": {
-          "type": "function"
-        },
-        "invalidFirstFormatConstraint": {
-          "type": "function"
-        },
-        "removeBuildID": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "sanjo:meteor-files-helpers": {
-    "MeteorFilesHelpers": {
-      "type": "object",
-      "members": {
-        "getAppPath": {
-          "type": "function"
-        },
-        "getMeteorToolPath": {
-          "type": "function"
-        },
-        "getMeteorInstallationPath": {
-          "type": "function"
-        },
-        "getNodeModulePath": {
-          "type": "function"
-        },
-        "getPackageVersions": {
-          "type": "function"
-        },
-        "getPackageVersion": {
-          "type": "function"
-        },
-        "isPackageInstalled": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "velocity:core": {
-    "Velocity": {
-      "type": "object",
-      "members": {
-        "startup": {
-          "type": "function"
-        },
-        "getAppPath": {
-          "type": "function"
-        },
-        "getTestsPath": {
-          "type": "function"
-        },
-        "getPackagesPath": {
-          "type": "function"
-        },
-        "getPackagePath": {
-          "type": "function"
-        },
-        "postProcessors": {
-          "type": "array"
-        },
-        "addPostProcessor": {
-          "type": "function"
-        },
-        "getReportGithubIssueMessage": {
-          "type": "function"
-        },
-        "registerTestingFramework": {
-          "type": "function"
-        },
-        "onTest": {
-          "type": "function"
-        },
-        "setOption": {
-          "type": "function"
-        },
-        "setOptions": {
-          "type": "function"
-        },
-        "getOption": {
-          "type": "function"
-        },
-        "mirrorMeteorReleaseName": {
-          "type": "constant",
-          "value": "velocity:METEOR"
-        },
-        "mirrorMeteorVersion": {
-          "type": "constant",
-          "value": "1.1.0.2_3"
-        },
-        "mirrorMeteorRelease": {
-          "type": "constant",
-          "value": "velocity:METEOR@1.1.0.2_3"
-        },
-        "mirrorMeteorToolReleaseName": {
-          "type": "constant",
-          "value": "velocity:meteor-tool"
-        },
-        "mirrorMeteorToolVersion": {
-          "type": "constant",
-          "value": "1.1.3_4"
-        },
-        "mirrorMeteorToolRelease": {
-          "type": "constant",
-          "value": "velocity:meteor-tool@1.1.3_4"
-        }
-      }
-    },
-    "VelocityTestFiles": {
-      "type": "object",
-      "members": {
-        "find": {
-          "type": "function"
-        },
-        "findOne": {
-          "type": "function"
-        },
-        "insert": {
-          "type": "function"
-        },
-        "update": {
-          "type": "function"
-        },
-        "remove": {
-          "type": "function"
-        },
-        "upsert": {
-          "type": "function"
-        },
-        "rawCollection": {
-          "type": "function"
-        },
-        "rawDatabase": {
-          "type": "function"
-        },
-        "allow": {
-          "type": "function"
-        },
-        "deny": {
-          "type": "function"
-        }
-      }
-    },
-    "VelocityFixtureFiles": {
-      "type": "object",
-      "members": {
-        "find": {
-          "type": "function"
-        },
-        "findOne": {
-          "type": "function"
-        },
-        "insert": {
-          "type": "function"
-        },
-        "update": {
-          "type": "function"
-        },
-        "remove": {
-          "type": "function"
-        },
-        "upsert": {
-          "type": "function"
-        },
-        "rawCollection": {
-          "type": "function"
-        },
-        "rawDatabase": {
-          "type": "function"
-        },
-        "allow": {
-          "type": "function"
-        },
-        "deny": {
-          "type": "function"
-        }
-      }
-    },
-    "VelocityTestReports": {
-      "type": "object",
-      "members": {
-        "find": {
-          "type": "function"
-        },
-        "findOne": {
-          "type": "function"
-        },
-        "insert": {
-          "type": "function"
-        },
-        "update": {
-          "type": "function"
-        },
-        "remove": {
-          "type": "function"
-        },
-        "upsert": {
-          "type": "function"
-        },
-        "rawCollection": {
-          "type": "function"
-        },
-        "rawDatabase": {
-          "type": "function"
-        },
-        "allow": {
-          "type": "function"
-        },
-        "deny": {
-          "type": "function"
-        }
-      }
-    },
-    "VelocityAggregateReports": {
-      "type": "object",
-      "members": {
-        "find": {
-          "type": "function"
-        },
-        "findOne": {
-          "type": "function"
-        },
-        "insert": {
-          "type": "function"
-        },
-        "update": {
-          "type": "function"
-        },
-        "remove": {
-          "type": "function"
-        },
-        "upsert": {
-          "type": "function"
-        },
-        "rawCollection": {
-          "type": "function"
-        },
-        "rawDatabase": {
-          "type": "function"
-        },
-        "allow": {
-          "type": "function"
-        },
-        "deny": {
-          "type": "function"
-        }
-      }
-    },
-    "VelocityLogs": {
-      "type": "object",
-      "members": {
-        "find": {
-          "type": "function"
-        },
-        "findOne": {
-          "type": "function"
-        },
-        "insert": {
-          "type": "function"
-        },
-        "update": {
-          "type": "function"
-        },
-        "remove": {
-          "type": "function"
-        },
-        "upsert": {
-          "type": "function"
-        },
-        "rawCollection": {
-          "type": "function"
-        },
-        "rawDatabase": {
-          "type": "function"
-        },
-        "allow": {
-          "type": "function"
-        },
-        "deny": {
-          "type": "function"
-        }
-      }
-    },
-    "VelocityMirrors": {
-      "type": "object",
-      "members": {
-        "find": {
-          "type": "function"
-        },
-        "findOne": {
-          "type": "function"
-        },
-        "insert": {
-          "type": "function"
-        },
-        "update": {
-          "type": "function"
-        },
-        "remove": {
-          "type": "function"
-        },
-        "upsert": {
-          "type": "function"
-        },
-        "rawCollection": {
-          "type": "function"
-        },
-        "rawDatabase": {
-          "type": "function"
-        },
-        "allow": {
-          "type": "function"
-        },
-        "deny": {
-          "type": "function"
-        }
-      }
-    },
-    "VelocityOptions": {
-      "type": "object",
-      "members": {
-        "find": {
-          "type": "function"
-        },
-        "findOne": {
-          "type": "function"
-        },
-        "insert": {
-          "type": "function"
-        },
-        "update": {
-          "type": "function"
-        },
-        "remove": {
-          "type": "function"
-        },
-        "upsert": {
-          "type": "function"
-        },
-        "rawCollection": {
-          "type": "function"
-        },
-        "rawDatabase": {
-          "type": "function"
-        },
-        "allow": {
-          "type": "function"
-        },
-        "deny": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "velocity:shim": {},
-  "velocity:meteor-stubs": {
-    "MeteorStubs": {
-      "type": "object",
-      "members": {
-        "install": {
-          "type": "function"
-        },
-        "uninstall": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "sanjo:karma": {
-    "Karma": {
-      "type": "object",
-      "members": {
-        "start": {
-          "type": "function"
-        },
-        "setConfig": {
-          "type": "function"
-        }
-      }
-    },
-    "KarmaInternals": {
-      "type": "object",
-      "members": {
-        "karmaChilds": {
-          "type": "object"
-        },
-        "getKarmaChild": {
-          "type": "function"
-        },
-        "setKarmaChild": {
-          "type": "function"
-        },
-        "startKarmaServer": {
-          "type": "function"
-        },
-        "writeKarmaConfig": {
-          "type": "function"
-        },
-        "generateKarmaConfig": {
-          "type": "function"
-        },
-        "readKarmaConfig": {
-          "type": "function"
-        },
-        "getConfigPath": {
-          "type": "function"
-        },
-        "getKarmaPath": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "sanjo:jasmine": {
-    "Jasmine": {
-      "type": "object",
-      "members": {
-        "onTest": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "velocity:html-reporter": {},
-  "velocity:console-reporter": {
-    "ConsoleReporter": {
-      "type": "function",
-      "members": {
-        "prototype": {
-          "type": "object",
-          "members": {
-            "reportSummary": {
-              "type": "function"
-            },
-            "reportPassed": {
-              "type": "function"
-            },
-            "reportFailed": {
-              "type": "function"
-            },
-            "reportOneFailed": {
-              "type": "function"
-            },
-            "totalTime": {
-              "type": "function"
-            },
-            "formatTime": {
-              "type": "function"
-            }
-          }
-        }
-      }
-    }
-  },
-  "kevohagan:sweetalert": {},
+  "useraccounts:materialize": {},
   "reload": {},
   "autoupdate": {
     "Autoupdate": {
@@ -20505,11 +20508,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "586a2fd90375822966740015d59dd566d8acce54"
+          "value": "f0adfe1f20171a0efd3cfb18e156739536bf9c0f"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "750968a9c071ae6e09b4df7d4a3c4e5bbb7cdd87"
+          "value": "9579dfc0116316b632201d00de67874018f32079"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
