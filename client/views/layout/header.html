@@ -1,24 +1,24 @@
 <template name='header'>
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Liftoff</a>
+      <a id="logo-container" href="{{pathFor 'home'}}" class="brand-logo">Liftoff</a>
       <ul class="right hide-on-med-and-down">
-        <li class='{{isActiveRoute regex="home"}}'><a href='{{pathFor "home"}}'>Home</a></li>
+        <li class='{{isActiveRoute "home"}}'><a href='{{pathFor "home"}}'>Home</a></li>
         {{#if currentUser}}
-          <li class='{{isActiveRoute regex="about"}}'><a href='{{pathFor "about"}}'>About</a></li>
+          <li class='{{isActiveRoute "about"}}'><a href='{{pathFor "about"}}'>About</a></li>
           <li class='logout'><a href='{{pathFor "atSignIn"}}'>Logout</a></li>
         {{else}}
-          <li class='{{isActiveRoute regex="atSignIn"}}'><a href='{{pathFor "atSignIn"}}'>Sign In</a></li>
+          <li class='{{isActiveRoute "/sign-in"}}'><a href='{{pathFor "/sign-in"}}'>Sign In</a></li>
         {{/if}}
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li class='{{isActiveRoute regex="home"}} nav-mobile-link'><a href='{{pathFor "home"}}'>Home</a></li>
+        <li class='{{isActiveRoute "home"}} nav-mobile-link'><a href='{{pathFor "home"}}'>Home</a></li>
         {{#if currentUser}}
-          <li class='{{isActiveRoute regex="about"}} nav-mobile-link'><a href='{{pathFor "about"}}'>About</a></li>
+          <li class='{{isActiveRoute "about"}} nav-mobile-link'><a href='{{pathFor "about"}}'>About</a></li>
           <li class='logout'><a href='{{pathFor "atSignIn"}} nav-mobile-link'>Logout</a></li>
         {{else}}
-          <li class='{{isActiveRoute regex="atSignIn"}} nav-mobile-link'><a href='{{pathFor "atSignIn"}}'>Sign In</a></li>
+          <li class='{{isActiveRoute "/sign-in"}} nav-mobile-link'><a href='{{pathFor "/sign-in"}}'>Sign In</a></li>
         {{/if}}
       </ul>
       <a data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>

@@ -1,6 +1,9 @@
 # Configure Accounts Template
 
     AccountsTemplates.configure
+
+Behavior
+
       confirmPassword: yes
       enablePasswordChange: yes
       forbidClientAccountCreation: no
@@ -8,10 +11,15 @@
       sendVerificationEmail: no
       lowercaseUsername: yes
 
+Appearance
+
       showAddRemoveServices: no
       showForgotPasswordLink: yes
       showLabels: yes
       showPlaceholders: yes
+      showResendVerificationEmailLink: no
+
+Client-side Validation
 
       continuousValidation: no
       negativeFeedback: no
@@ -22,15 +30,17 @@
 
       homeRoutePath: '/'
       redirectTimeout: 4000
+      defaultLayout: 'mainLayout'
+      defaultLayoutRegions:
+        header: 'header'
+        footer: 'footer'
+      defaultContentRegion: 'content'
 
       texts:
         navSignIn: 'Sign In'
         navSignOut: 'Logout'
-        button:
-          signUp: 'Create an account'
-        title:
-          forgotPwd: 'Recover Your Password'
-          signIn: ''
+        signUpLink_link: 'Create an account'
+        pwdLink_link: 'Forgot password?'
 
     AccountsTemplates.removeField 'email'
     password = AccountsTemplates.removeField 'password'
@@ -77,8 +87,6 @@
         userExists: (username) ->
           !!(Meteor.users.findOne username: username)
 
-## Routes
-
     AccountsTemplates.configureRoute 'changePwd'
     AccountsTemplates.configureRoute 'enrollAccount'
     AccountsTemplates.configureRoute 'forgotPwd'
@@ -86,4 +94,3 @@
     AccountsTemplates.configureRoute 'signIn'
     AccountsTemplates.configureRoute 'signUp'
     AccountsTemplates.configureRoute 'verifyEmail'
-    AccountsTemplates.configureRoute 'ensureSignedIn'

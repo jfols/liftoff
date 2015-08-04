@@ -4,13 +4,15 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-iron:router
 coffeescript
 accounts-password
-zimme:iron-router-active
 natestrauser:connection-banner
 sanjo:jasmine
 velocity:html-reporter
 velocity:console-reporter
 materialize:materialize
+kadira:blaze-layout
+zimme:active-route
+arillo:flow-router-helpers
+kadira:flow-router
 useraccounts:materialize

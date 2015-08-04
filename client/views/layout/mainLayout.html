@@ -1,0 +1,8 @@
+<template name='mainLayout'>
+  {{> connectionBanner}}
+  {{> Template.dynamic template=header}}
+  <div class='container yield'>
+    {{> Template.dynamic template=content}}
+  </div>
+  {{> Template.dynamic template=footer}}
+</template>
