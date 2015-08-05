@@ -1,4 +1,6 @@
-# FlowRouter Definitions
+# FlowRouter
+
+## Routes
 
     FlowRouter.route '/',
       action: ->
@@ -16,27 +18,16 @@
           content: 'about'
       name: 'about'
 
-## Filters
+## Helpers
 
-filters =
-  isLoggedIn: ->
-    if not (Meteor.loggingIn() or Meteor.user())
-      this.render 'fullPageAtForm'
-      Router.go 'atSignIn'
-    else
-      this.next()
+    userAccountsRoutes = ['signIn', 'signUp', 'verifyEmail', 'sendAgain', 'changePwd', 'enrollAccount', 'forgotPwd', 'resetPassword']
 
-Login filter, except public routes
+## Triggers
 
-Router.onBeforeAction filters.isLoggedIn,
-  except: [
-    'home'
-    'about'
-    'atSignIn'
-    'atSignUp'
-    'atForgotPwd'
-    'atResetPwd'
-    'atVerifyEmail'
-    'atEnrollAccount'
-    'atChangePwd'
-  ]
+### requireLoggedIn
+
+    requireLoggedIn = (context, redirect) ->
+      if not (Meteor.user()? or Meteor.loggingIn())
+        redirect 'signIn'
+
+    FlowRouter.triggers.enter [requireLoggedIn], except: _.union ['home'], userAccountsRoutes
