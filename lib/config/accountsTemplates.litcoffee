@@ -42,6 +42,8 @@ Client-side Validation
         signUpLink_link: 'Create an account'
         pwdLink_link: 'Forgot password?'
 
+      onLogoutHook: -> FlowRouter.go '/sign-in'
+
     AccountsTemplates.removeField 'email'
     password = AccountsTemplates.removeField 'password'
     AccountsTemplates.addFields [
