@@ -1,27 +1,35 @@
 <template name='header'>
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="{{pathFor 'home'}}" class="brand-logo">Liftoff</a>
-      <ul class="right hide-on-med-and-down">
-        <li class='{{isActiveRoute "home"}}'><a href='{{pathFor "home"}}'>Home</a></li>
+  <!-- Following Menu -->
+  <div class="ui large top fixed hidden menu">
+    <div class="ui container">
+      <a class="active item" href='{{pathFor "home"}}'>Home</a>
+      <a class="item">Work</a>
+      <a class="item">Company</a>
+      <a class="item">Careers</a>
+      <div class="right menu">
         {{#if currentUser}}
-          <li class='{{isActiveRoute "about"}}'><a href='{{pathFor "about"}}'>About</a></li>
-          <li class='logout'><a href='{{pathFor "atSignIn"}}'>Logout</a></li>
+          <div class="item">
+            <a class="ui button logout" href='{{pathFor "/sign-in"}}'>Log Out</a>
+          </div>
         {{else}}
-          <li class='{{isActiveRoute "/sign-in"}}'><a href='{{pathFor "/sign-in"}}'>Sign In</a></li>
+          <div class="item">
+            <a class="ui button" href='{{pathFor "/sign-in"}}'>Log In</a>
+          </div>
+          <div class="item">
+            <a class="ui primary button" href='{{pathFor "/sign-up"}}'>Sign Up</a>
+          </div>
         {{/if}}
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li class='{{isActiveRoute "home"}} nav-mobile-link'><a href='{{pathFor "home"}}'>Home</a></li>
-        {{#if currentUser}}
-          <li class='{{isActiveRoute "about"}} nav-mobile-link'><a href='{{pathFor "about"}}'>About</a></li>
-          <li class='logout'><a href='{{pathFor "atSignIn"}} nav-mobile-link'>Logout</a></li>
-        {{else}}
-          <li class='{{isActiveRoute "signIn"}} nav-mobile-link'><a href='{{pathFor "signIn"}}'>Sign In</a></li>
-        {{/if}}
-      </ul>
-      <a data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
     </div>
-  </nav>
+  </div>
+
+  <!-- Sidebar Menu -->
+  <div class="ui vertical inverted sidebar menu">
+    <a class="active item">Home</a>
+    <a class="item">Work</a>
+    <a class="item">Company</a>
+    <a class="item">Careers</a>
+    <a class="item">Login</a>
+    <a class="item">Signup</a>
+  </div>
 </template>

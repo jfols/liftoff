@@ -4,24 +4,26 @@
 
     userAccountsRoutes = ['atSignIn', 'atSignUp', 'atVerifyEmail', 'atSendAgain', 'atChangePwd', 'atEnrollAccount', 'atForgotPwd', 'atR esetPassword']
 
-    renderMainLayoutWithContent = (content) -> -> BlazeLayout.render 'mainLayout', content: content
+    renderMainLayoutWithContent = (content) -> -> BlazeLayout.render 'mainLayout', content
 
 ### Create Flow Route
 
 Creates a basic flow route, a common pattern.
 `routeName` is all that is required
 
-    createFlowRoute = (routeName, options={}) ->
+    createFlowRoute = (routeName, options={}, extraContent={}) ->
       path = options.path or "/#{routeName}"
       templateName = options.templateName or routeName
       renderLayoutWithContent = options.renderLayoutFunction or renderMainLayoutWithContent
+      content = { content: templateName};
+      _.extend(content, extraContent);
       FlowRouter.route path,
         name: routeName
-        action: renderLayoutWithContent templateName
+        action: renderLayoutWithContent content
 
 ## Routes
 
-    createFlowRoute 'home', path: '/'
+    createFlowRoute 'home', { path: '/' }, { mastheadContent: 'mastheadHome' }
     createFlowRoute 'about'
 
 ## Triggers

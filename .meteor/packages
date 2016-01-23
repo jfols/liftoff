@@ -4,14 +4,15 @@
 # but you can also edit it by hand.
 
 standard-app-packages
+semantic:ui
 coffeescript
 accounts-password
-materialize:materialize
 kadira:blaze-layout
 zimme:active-route
 arillo:flow-router-helpers
 kadira:flow-router
-useraccounts:materialize
+useraccounts:semantic-ui
 useraccounts:flow-routing
-modweb:materialize-connection-status
 standard-minifiers
+flemay:less-autoprefixer
+jquery

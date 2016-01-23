@@ -1,0 +1,21 @@
+<template name='menuMain'>
+  <div class="ui container">
+    <div class="ui large secondary inverted pointing menu">
+      <a class="toc item">
+        <i class="sidebar icon"></i>
+      </a>
+      <a class="active item" href='{{pathFor "home"}}'>Home</a>
+      <a class="item">Work</a>
+      <a class="item">Company</a>
+      <a class="item">Careers</a>
+      <div class="right item">
+        {{#if currentUser}}
+          <a class="ui inverted button logout">Log Out</a>
+        {{else}}
+          <a class="ui inverted button" href='{{pathFor "/sign-in"}}'>Log in</a>
+          <a class="ui inverted button" href='{{pathFor "/sign-up"}}'>Sign Up</a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</template>

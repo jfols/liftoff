@@ -1,8 +1,18 @@
 <template name='mainLayout'>
   {{> header}}
-  <div class='container yield'>
+  <!-- Page Contents -->
+  <div class="pusher">
+    {{#if mastheadContent}}
+      <div class="ui inverted vertical masthead center aligned segment">
+        {{> menuMain}}
+        {{> Template.dynamic template=mastheadContent}}
+      </div>
+    {{else}}
+      <div class="ui inverted vertical center aligned segment">
+        {{> menuMain}}
+      </div>
+    {{/if}}
     {{> Template.dynamic template=content}}
   </div>
   {{> footer}}
-  {{> connectionStatus}}
 </template>
