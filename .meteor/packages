@@ -6,13 +6,11 @@
 standard-app-packages
 coffeescript
 accounts-password
-sanjo:jasmine
-velocity:html-reporter
-velocity:console-reporter
 materialize:materialize
 kadira:blaze-layout
 zimme:active-route
 arillo:flow-router-helpers
 kadira:flow-router
 useraccounts:materialize
+useraccounts:flow-routing
 modweb:materialize-connection-status
