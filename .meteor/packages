@@ -14,3 +14,4 @@ kadira:flow-router
 useraccounts:materialize
 useraccounts:flow-routing
 modweb:materialize-connection-status
+standard-minifiers

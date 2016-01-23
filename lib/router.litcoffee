@@ -2,7 +2,7 @@
 
 ## Helpers
 
-    userAccountsRoutes = ['signIn', 'signUp', 'verifyEmail', 'sendAgain', 'changePwd', 'enrollAccount', 'forgotPwd', 'resetPassword']
+    userAccountsRoutes = ['atSignIn', 'atSignUp', 'atVerifyEmail', 'atSendAgain', 'atChangePwd', 'atEnrollAccount', 'atForgotPwd', 'atR esetPassword']
 
     renderMainLayoutWithContent = (content) -> -> BlazeLayout.render 'mainLayout', content: content
 
@@ -30,6 +30,6 @@ Creates a basic flow route, a common pattern.
 
     requireLoggedIn = (context, redirect) ->
       if not (Meteor.user()? or Meteor.loggingIn())
-        redirect 'signIn'
+        redirect 'atSignIn'
 
     FlowRouter.triggers.enter [requireLoggedIn], except: _.union ['home'], userAccountsRoutes
