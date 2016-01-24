@@ -5,7 +5,6 @@
 
 standard-app-packages
 semantic:ui
-coffeescript
 accounts-password
 kadira:blaze-layout
 zimme:active-route
@@ -16,3 +15,4 @@ useraccounts:flow-routing
 standard-minifiers
 flemay:less-autoprefixer
 jquery
+ecmascript
