@@ -9,7 +9,7 @@
 .masthead .logo.item img {
   margin-right: 1em;
 }
-.masthead .ui.menu .ui.button {
+.ui.menu:not(.vertical) .item > .button {
   margin-left: 0.5em;
 }
 .masthead h1.ui.header {
