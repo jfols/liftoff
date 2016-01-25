@@ -9,14 +9,14 @@
       <div class="right menu">
         {{#if currentUser}}
           <div class="item">
-            <a class="ui button logout" href='{{pathFor "/sign-in"}}'>Log Out</a>
+            <a class="ui button logout" href='{{pathFor "atSignIn"}}'>Log Out</a>
           </div>
         {{else}}
           <div class="item">
-            <a class="ui button" href='{{pathFor "/sign-in"}}'>Log In</a>
+            <a class="ui button" href='{{pathFor "atSignIn"}}'>Log In</a>
           </div>
           <div class="item">
-            <a class="ui primary button" href='{{pathFor "/sign-up"}}'>Sign Up</a>
+            <a class="ui primary button" href='{{pathFor "atSignUp"}}'>Sign Up</a>
           </div>
         {{/if}}
       </div>
@@ -25,11 +25,11 @@
 
   <!-- Sidebar Menu -->
   <div class="ui vertical inverted sidebar menu">
-    <a class="active item">Home</a>
+    <a class="active item" href='{{pathFor "home"}}'>Home</a>
     <a class="item">Work</a>
     <a class="item">Company</a>
     <a class="item">Careers</a>
-    <a class="item">Login</a>
-    <a class="item">Signup</a>
+    <a class="item" href='{{pathFor "atSignIn"}}'>Log In</a>
+    <a class="item" href='{{pathFor "atSignUp"}}'>Sign Up</a>
   </div>
 </template>
