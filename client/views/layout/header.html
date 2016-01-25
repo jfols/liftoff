@@ -13,10 +13,10 @@
           </div>
         {{else}}
           <div class="item">
-            <a class="ui button" href='{{pathFor "atSignIn"}}'>Log In</a>
+            <a class='{{isActiveRoute "atSignIn"}} ui button' href='{{pathFor "atSignIn"}}'>Log In</a>
           </div>
           <div class="item">
-            <a class="ui primary button" href='{{pathFor "atSignUp"}}'>Sign Up</a>
+            <a class='{{isActiveRoute "atSignUp"}} ui primary button' href='{{pathFor "atSignUp"}}'>Sign Up</a>
           </div>
         {{/if}}
       </div>
@@ -25,11 +25,11 @@
 
   <!-- Sidebar Menu -->
   <div class="ui vertical inverted sidebar menu">
-    <a class="active item" href='{{pathFor "home"}}'>Home</a>
-    <a class="item">Work</a>
-    <a class="item">Company</a>
-    <a class="item">Careers</a>
-    <a class="item" href='{{pathFor "atSignIn"}}'>Log In</a>
-    <a class="item" href='{{pathFor "atSignUp"}}'>Sign Up</a>
+    <a class='{{isActiveRoute "home"}} item' href='{{pathFor "home"}}'>Home</a>
+    <a class='{{isActiveRoute "work"}} item'>Work</a>
+    <a class='{{isActiveRoute "company"}} item'>Company</a>
+    <a class='{{isActiveRoute "careers"}} item'>Careers</a>
+    <a class='{{isActiveRoute "atSignIn"}} item' href='{{pathFor "atSignIn"}}'>Log In</a>
+    <a class='{{isActiveRoute "atSignUp"}} item' href='{{pathFor "atSignUp"}}'>Sign Up</a>
   </div>
 </template>
