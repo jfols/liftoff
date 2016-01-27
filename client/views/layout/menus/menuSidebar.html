@@ -1,0 +1,7 @@
+<template name='sidebarMenu'>
+  <div class="ui vertical inverted sidebar menu">
+    {{> menuLinks}}
+    <a class='{{isActiveRoute "atSignIn"}} item' href='{{pathFor "atSignIn"}}'>Log In</a>
+    <a class='{{isActiveRoute "atSignUp"}} item' href='{{pathFor "atSignUp"}}'>Sign Up</a>
+  </div>
+</template>

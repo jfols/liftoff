@@ -1,35 +1,4 @@
 <template name='header'>
-  <!-- Following Menu -->
-  <div class="ui large top fixed hidden menu">
-    <div class="ui container">
-      <a class="active item" href='{{pathFor "home"}}'>Home</a>
-      <a class="item">Work</a>
-      <a class="item">Company</a>
-      <a class="item">Careers</a>
-      <div class="right menu">
-        {{#if currentUser}}
-          <div class="item">
-            <a class="ui button logout" href='{{pathFor "atSignIn"}}'>Log Out</a>
-          </div>
-        {{else}}
-          <div class="item">
-            <a class='{{isActiveRoute "atSignIn"}} ui button' href='{{pathFor "atSignIn"}}'>Log In</a>
-          </div>
-          <div class="item">
-            <a class='{{isActiveRoute "atSignUp"}} ui primary button' href='{{pathFor "atSignUp"}}'>Sign Up</a>
-          </div>
-        {{/if}}
-      </div>
-    </div>
-  </div>
-
-  <!-- Sidebar Menu -->
-  <div class="ui vertical inverted sidebar menu">
-    <a class='{{isActiveRoute "home"}} item' href='{{pathFor "home"}}'>Home</a>
-    <a class='{{isActiveRoute "work"}} item'>Work</a>
-    <a class='{{isActiveRoute "autoform"}} item'>AutoForm Example</a>
-    <a class='{{isActiveRoute "careers"}} item'>Careers</a>
-    <a class='{{isActiveRoute "atSignIn"}} item' href='{{pathFor "atSignIn"}}'>Log In</a>
-    <a class='{{isActiveRoute "atSignUp"}} item' href='{{pathFor "atSignUp"}}'>Sign Up</a>
-  </div>
+  {{> followingMenu}}
+  {{> sidebarMenu}}
 </template>

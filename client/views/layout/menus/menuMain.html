@@ -4,10 +4,7 @@
       <a class="toc item">
         <i class="sidebar icon"></i>
       </a>
-      <a class='{{isActiveRoute "home"}} item' href='{{pathFor "home"}}'>Home</a>
-      <a class='{{isActiveRoute "autoform"}} item' href='{{pathFor "autoform"}}'>AutoForm Example</a>
-      <a class='{{isActiveRoute "company"}} item'>Company</a>
-      <a class='{{isActiveRoute "careers"}} item'>Careers</a>
+      {{> menuLinks}}
       <div class="right item">
         {{#if currentUser}}
           <a class="ui inverted button logout">Log Out</a>
