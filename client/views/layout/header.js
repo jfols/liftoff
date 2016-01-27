@@ -1,6 +1,8 @@
 Template.header.events({
   'click .logout': function(event) {
-    console.log('logout!');
-    return AccountsTemplates.logout();
+    AccountsTemplates.logout();
+  },
+  'click .sidebar': function(event, template) {
+    $('.ui.sidebar').sidebar('hide');
   }
 });
