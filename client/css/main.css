@@ -1,6 +1,9 @@
 .hidden.menu {
   display: none;
 }
+.main.container {
+  margin-top: 7em;
+}
 
 .masthead.segment {
   min-height: 700px;
@@ -21,6 +24,10 @@
 .masthead h2 {
   font-size: 1.7em;
   font-weight: normal;
+}
+
+.ui.vertical.stripe-bottom {
+  padding: 0em 0em 8em 0em;
 }
 
 .ui.vertical.stripe {
