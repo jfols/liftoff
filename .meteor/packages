@@ -16,3 +16,6 @@ standard-minifiers
 flemay:less-autoprefixer
 jquery
 ecmascript
+aldeed:collection2
+aldeed:autoform
+fabienb4:autoform-semantic-ui
