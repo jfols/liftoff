@@ -2,6 +2,8 @@
 
 Liftoff is an opinionated boilerplate you can use to [Meteor](https://meteor.com) project off the ground super fast. [Check out the demo.](http://liftoff.meteor.com)
 
+![Nifty gif, eh?](https://raw.githubusercontent.com/jfols/liftoff/master/public/assets/images/liftoff.gif)
+
 # What's inside
 
 - [semantic:ui](https://atmospherejs.com/semantic/ui) - User Interface is the language of the web
