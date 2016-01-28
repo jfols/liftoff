@@ -1,35 +1,28 @@
-#Liftoff
+# Liftoff
 
-Opinionated boilerplate to get your [Meteor](https://meteor.com) project off the ground written in literal coffeescript using Meteor v1.1.0.3.
+Liftoff is an opinionated boilerplate you can use to [Meteor](https://meteor.com) project off the ground super fast. [Check out the demo.](http://liftoff.meteor.com)
 
-Liftoff is designed to be a basic starting point for any Meteor project.
+# What's inside
 
-Check the demo! [liftoff.meteor.com](http://liftoff.meteor.com)
+- [semantic:ui](https://atmospherejs.com/semantic/ui) - User Interface is the language of the web
+- [useraccounts:semantic-ui](https://atmospherejs.com/useraccounts/materialize) - Beautiful and simple user account templates
+- [kadira:flow-router](https://atmospherejs.com/kadira/flow-router) - Routing at its finest
+- [kadira:blaze-layout](https://atmospherejs.com/kadira/blaze-layout) - Blaze rendering for Flow Router
+- [zimme:active-route](https://atmospherejs.com/zimme/active-route) - Template helper to determine active routes
+- [arillo:flow-router-helpers](https://atmospherejs.com/fortawesome/fontawesome) - Flow Router helpers
+- [aldeed:autoform](https://atmospherejs.com/aldeed/autoform) - Magic forms
+- [aldeed:simple-schema](https://atmospherejs.com/aldeed/simple-schema) - Schemas for your collections
+- [aldeed:collection2](https://atmospherejs.com/aldeed/collection2) - Automatically validate your collections
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+# Try it
 
-- [Quick Start](#quick-start)
-  - [Test logs](#test-logs)
-- [Included Packages](#included-packages)
-- [Recommended Packages](#recommended-packages)
-- [Deploy your app](#deploy-your-app)
-  - [Meteor Deploy (easy)](#meteor-deploy-easy)
-  - [Semi-Manual Deploy (recommended)](#semi-manual-deploy-recommended)
-  - [Manual Deploy (experts only)](#manual-deploy-experts-only)
+Download the project and unzip.
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+https://github.com/jfols/liftoff/archive/master.zip
 
-# Quick Start
+Rename the directory to your project name.
 
-Clone repo
-
-```sh
-git clone git@github.com:jfols/liftoff.git YOURPROJECTNAME
-```
-
-Get up in that project directory
+In your terminal, navigate to the project directory.
 
 ```sh
 cd YOURPROJECTNAME
@@ -47,42 +40,13 @@ Fire up the engines
 meteor
 ```
 
-Debug tests
-```sh
-JASMINE_BROWSER=PhantomJS DEBUG=1 MOCHA_DEBUG=1 JASMINE_DEBUG=1 VELOCITY_DEBUG=1 VELOCITY_DEBUG_MIRROR=1 meteor
-```
-
-## Test logs
-
-Logs are located in `.meteor/local/log/`
-
-# Included Packages
-
-- [kadira:flow-router](https://atmospherejs.com/kadira/flow-router) - Routing at its finest
-- [kadira:blaze-layout](https://atmospherejs.com/kadira/blaze-layout) - Blaze rendering for Flow Router
-- [coffeescript](https://atmospherejs.com/meteor/coffeescript) - Yum
-- [materialize:materialize](https://atmospherejs.com/materialize/materialize) - Get Materilized
-- [useraccounts:materilize](https://atmospherejs.com/useraccounts/materialize) - Beautiful and simple user account templates
-- [zimme:active-route](https://atmospherejs.com/zimme/active-route) - Simple template helpers to determine active routes
-- [arillo:flow-router-helpers](https://atmospherejs.com/fortawesome/fontawesome) - Flow Router helpers
-- [sanjo:jasmine](https://atmospherejs.com/sanjo/jasmine) - Jasmine tests
-- [velocity:html-reporter](https://atmospherejs.com/velocity/html-reporter) - Velocity HTML test reporter
-- [velocity:console-reporter](https://atmospherejs.com/velocity/console-reporter) - Velocity console test reporter
-
-# Recommended Packages
-
-- [aldeed:autoform](https://atmospherejs.com/aldeed/autoform) - Magic forms
-  - [aldeed:simple-schema](https://atmospherejs.com/aldeed/simple-schema) - Schemas for your collections
-  - [aldeed:collection2](https://atmospherejs.com/aldeed/collection2) - Automatically validate your collections
-- [percolate:synced-cron](https://atmospherejs.com/percolate/synced-cron) - Cron jobs
-
 # Deploy your app
 
 There are several options to deploy your app.
 
-## Meteor Deploy (easy)
+## Meteor Deploy
 
-You can use the free `meteor deploy` service (hosted by Meteor) or your can deploy to your own server.
+Free `meteor deploy` hosted by Meteor.
 
 ```sh
 meteor deploy yourapp.meteor.com
@@ -90,11 +54,15 @@ meteor deploy yourapp.meteor.com
 
 Or to your own domain using Meteor deploy by setting the `CNAME` of your domain to `origin.meteor.com`.
 
-## Semi-Manual Deploy (recommended)
+```sh
+meteor deploy yourdomain.com
+```
+
+## Meteor Up (recommended)
 
 We find the use of [Digital Ocean](https://www.digitalocean.com/?refcode=c7c4c94c1222) with [Meteor Up](https://github.com/arunoda/meteor-up/) to be the simplest and most cost effective hosting solution.
 For a more robust database experience give [Compose](https://www.compose.io/mongodb/) a try.
 
-## Manual Deploy (experts only)
+## Custom Deploy
 
 Check out this hackpad https://hackpad.com/Production-Meteor-Deploy-Ubuntu-14.04-5TRJ2Erlngg
