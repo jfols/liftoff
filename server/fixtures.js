@@ -1,22 +1,21 @@
-var criteria, users;
+var users, emailPostfix, usernamePrefix, userCount;
 
-criteria = {
-  username: 'testuser'
-};
+if (Meteor.users.find().count() === 0) {
+  emailPostfix = '@email.com';
+  usernamePrefix = 'username';
+  userCount = 50;
 
-if (Meteor.users.find(criteria).count() === 0) {
-  users = [
-    {
-      username: 'testuser',
-      email: 'test@user.com',
-      password: 'password'
-    }, {
-      username: 'testuser2',
-      email: 'test@user2.com',
-      password: 'password'
-    }
-  ];
   console.log('FIXTURES: creating test users');
+
+  users = [];
+  _(userCount).times(function (n) {
+    users.push({
+      username: `${usernamePrefix}${n}`,
+      email: `${usernamePrefix}${n}${emailPostfix}`,
+      password: 'password'
+    })
+  });
+
   _.each(users, function(user) {
     return Accounts.createUser(user);
   });
