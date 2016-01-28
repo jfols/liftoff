@@ -15,6 +15,7 @@ Liftoff is an opinionated boilerplate you can use to [Meteor](https://meteor.com
 - [aldeed:autoform](https://atmospherejs.com/aldeed/autoform) - Magic forms
 - [aldeed:simple-schema](https://atmospherejs.com/aldeed/simple-schema) - Schemas for your collections
 - [aldeed:collection2](https://atmospherejs.com/aldeed/collection2) - Automatically validate your collections
+- [okgrow:router-autoscroll](https://atmospherejs.com/okgrow/router-autoscroll) - Fixes scrolling position while routing
 
 # Try it
 
