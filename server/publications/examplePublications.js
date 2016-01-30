@@ -1,4 +1,3 @@
 /* global Examples */
-Meteor.publish('allExamples', function () {
-  return Examples.find();
-});
+
+Meteor.publish('allExamples', () => Examples.find());
