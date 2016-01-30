@@ -1,3 +1,5 @@
+var _ = lodash;
+
 var users, emailPostfix, usernamePrefix, userCount;
 
 if (Meteor.users.find().count() === 0) {
