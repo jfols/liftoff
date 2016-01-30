@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/jfols/liftoff/issues"
   },
-  "homepage": "https://github.com/jfols/liftoff#readme",
+  "homepage": "http://liftoff.meteor.com",
   "devDependencies": {
     "eslint": "^1.10.3",
     "eslint-config-semistandard": "^5.0.0",
