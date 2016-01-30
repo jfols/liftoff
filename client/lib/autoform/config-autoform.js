@@ -1,3 +1,4 @@
+/* global AutoForm */
 Meteor.startup(() => {
-  AutoForm.setDefaultTemplate("semanticUI");
+  AutoForm.setDefaultTemplate('semanticUI');
 });

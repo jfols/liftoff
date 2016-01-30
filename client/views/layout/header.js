@@ -1,8 +1,9 @@
+/* global AccountsTemplates */
 Template.header.events({
-  'click .logout': function(event) {
+  'click .logout': function (event) {
     AccountsTemplates.logout();
   },
-  'click .sidebar': function(event, template) {
+  'click .sidebar': function (event, template) {
     $('.ui.sidebar').sidebar('hide');
   }
 });
