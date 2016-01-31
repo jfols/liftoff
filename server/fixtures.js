@@ -9,11 +9,9 @@ if (Meteor.users.find().count() === 0) {
 
   console.log('FIXTURES: creating test users');
 
-  _.chain(userCount)
-    .times((n) => ({
-      username: `${ usernamePrefix }${ n }`,
-      email: `${ usernamePrefix }${ n }${ emailPostfix }`,
-      password: 'password'
-    }))
-    .each((user) => Accounts.createUser(user));
+  _.times(userCount, (index) => Accounts.createUser({
+    username: `${ usernamePrefix }${ index }`,
+    email: `${ usernamePrefix }${ index }${ emailPostfix }`,
+    password: 'password'
+  }));
 }
