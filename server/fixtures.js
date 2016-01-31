@@ -15,10 +15,10 @@ if (Meteor.users.find().count() === 0) {
       username: `${usernamePrefix}${n}`,
       email: `${usernamePrefix}${n}${emailPostfix}`,
       password: 'password'
-    })
+    });
   });
 
-  _.each(users, function(user) {
+  _.each(users, function (user) {
     return Accounts.createUser(user);
   });
 }
