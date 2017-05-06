@@ -1,24 +1,17 @@
+
 <template name='exampleAutoform'>
-  <div class='ui vertical segment'>
-    <div class='ui stackable grid container'>
-      <div class='row'>
-        <h2>Insert Example</h2>
-      </div>
-      <div class='eight wide column'>
-        {{> quickForm id='autoformInsertExample' collection='Examples' type='insert'}}
-      </div>
-    </div>
+  <div class='row'>
+    <h2>Insert Example</h2>
   </div>
-  <div class='ui vertical segment'>
-    <div class='ui stackable grid container'>
-      <div class='row'>
-        <h2>Example Objects ({{examplesCount}})</h2>
+  <div class='row'>
+    {{> quickForm id='autoformInsertExample' collection='Examples' type='insert'}}
+  </div>
+
+  <div class='row'>
+    {{#each examples}}
+      <div class='col-md-6'>
+        {{> examplePanel}}
       </div>
-      <div class='ui cards'>
-        {{#each examples}}
-          {{> exampleCard}}
-        {{/each}}
-      </div>
-    </div>
+    {{/each}}
   </div>
 </template>

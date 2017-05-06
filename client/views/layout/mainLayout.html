@@ -1,20 +1,7 @@
 <template name='mainLayout'>
   {{> header}}
   <!-- Page Contents -->
-  <div class="pusher">
-    {{#if mastheadContent}}
-      <div class="ui inverted vertical masthead center aligned segment">
-        {{> menuMain}}
-        {{> Template.dynamic template=mastheadContent}}
-      </div>
-    {{else}}
-      <div class="ui inverted vertical center aligned segment">
-        {{> menuMain}}
-      </div>
-    {{/if}}
-    <div class='ui main container'>
+    <div class="container">
       {{> Template.dynamic template=content}}
     </div>
-  </div>
-  {{> footer}}
 </template>
